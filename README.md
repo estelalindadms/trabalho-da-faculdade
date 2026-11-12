@@ -12,7 +12,7 @@ Um ensaio fotográfico e poético em 47 fotografias autorais, com linguagem grá
 
 O ensaio reúne 47 fotografias autorais: 27 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 16 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
 
-Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 27 originais coloridos, revelados pelo botão Devolver a cor, sem colorização artificial. Os dois registros originalmente em preto e branco que estavam no Vivo foram integrados aos capítulos anteriores. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
+Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 28 fotografias: 27 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também originalmente em preto e branco, permanece no capítulo sobre permanência. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
 
 ## Música e leitura
 
@@ -28,7 +28,7 @@ Os créditos e direitos das fotos estão em `assets/credits.json` e no próprio 
 
 ## Recife vivo e identidade visual
 
-O quinto movimento reúne 27 fotografias coloridas, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela os 27 originais coloridos do Recife Vivo; permite rever a apresentação em preto e branco. A preferência Cores originais mantém a cor sem depender dessa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
+O quinto movimento reúne 28 fotografias, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela o tratamento original das fotos do Recife Vivo; permite rever a apresentação em preto e branco. A fachada do Trianon e o registro de acervo mantêm a monocromia. A preferência Cores originais dispensa essa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
 
 O refinamento visual e os controles de acesso estão em `enhancements.css` e `enhancements.js`. O painel oferece texto maior, contraste reforçado, retirada de texturas, redução de movimento, cores originais e fonte simples. As preferências são salvas somente no navegador. A leitura tem controles de pausa, retomada e parada.
 
@@ -61,11 +61,11 @@ As quatro fotos de capa são definidas em coverPhotos, em data.js: DSC05656, DSC
 
 Três imagens do primeiro percurso, de 5 de novembro de 2026, acompanham os estudos existentes. urbanReadings, em data.js, define as legendas e as referências internas. A ampliação usa os mesmos controles da galeria e conserva a autoria, a data e a localização pesquisada.
 
-A feira DSC05655, a travessia DSC05746, as raízes DSC05776 e o píer DSC05779 compõem o Recife Vivo. O movimento sobre permanência reúne seis fotografias: DSC05689, DSC05813, DSC05808 e DSC05662, do primeiro conjunto, e DSC05867 e DSC05917, do percurso de 11 de novembro. Os sebos DSC05670, DSC05691 e DSC05752 aparecem no Recife Vivo. A fachada monocromática DSC05748 abre o capítulo A arte circula, junto à comparação histórica.
+A feira DSC05655, a travessia DSC05746, as raízes DSC05776 e o píer DSC05779 compõem o Recife Vivo. O movimento sobre permanência reúne seis fotografias: DSC05689, DSC05813, DSC05808 e DSC05662, do primeiro conjunto, e DSC05867 e DSC05917, do percurso de 11 de novembro. Os sebos DSC05670, DSC05691 e DSC05752 aparecem no Recife Vivo. A fachada monocromática DSC05748 entra entre os livros e os DVDs, junto à comparação histórica, aproximando a memória do cinema da sobrevivência da arte nas bancas.
 
 ## A sessão continua na calçada
 
-O bloco cinemaMemory em data.js é renderizado por app.js no capítulo A arte circula, antes do Recife Vivo. Duas fotografias atuais, DSC05748 e DSC05752, aproximam a fachada e os filmes nas bancas. A fotografia histórica de 1961 compõe a comparação ao lado da fachada atual. A identificação do Trianon é provável por comparação visual. As legendas públicas apresentam o entorno em vez de um endereço não comprovado.
+O bloco cinemaMemory em data.js é renderizado por app.js na segunda passagem do Recife Vivo, junto aos sebos. Duas fotografias atuais, DSC05748 e DSC05752, aproximam a fachada e os filmes nas bancas. A fotografia histórica de 1961 compõe a comparação ao lado da fachada atual. A identificação do Trianon é provável por comparação visual. As legendas públicas apresentam o entorno em vez de um endereço não comprovado.
 
 A comparação distingue o Cine Trianon do vizinho Art-Palácio. As datas e as transformações do Art-Palácio vêm da pesquisa de Silva e Pinho (Docomomo, 2024); o sebo histórico na calçada do Trianon é documentado por Kleber Mendonça Filho (Continente, 2013). O projeto do IFPE é apresentado como anúncio de 2024, sem declaração de reabertura concluída. A memória audiovisual recebe um link ao filme do próprio realizador. A comparação visual acrescenta a fotografia de 28/8/1961, de Mário de Carvalho, acervo do Museu da Cidade do Recife, extraída do catálogo oficial Arte Subdesenvolvida (CCBB), pp. 78–79, PDF página 40. A imagem fica ao lado da DSC05748, com data, autoria e fonte. A reprodução de acervo permanece separada das 47 fotografias autorais. O catálogo consultado não explicita licença aberta para essa fotografia; o crédito documenta a procedência, sem declarar uma licença presumida.
 
@@ -73,7 +73,7 @@ A fotografia de arquivo está em `assets/acervo/trianon-1961-mario-de-carvalho.j
 
 ## Seleção e percurso visual
 
-A seleção reúne 47 fotografias entre 102 arquivos do projeto. Os cinco movimentos têm 9, 6, 2, 3 e 27 imagens. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
+A seleção reúne 47 fotografias entre 102 arquivos do projeto. Os cinco movimentos têm 9, 6, 2, 2 e 28 imagens. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
 
 As fotografias semelhantes foram comparadas pelo enquadramento, pelo gesto e pela função na narrativa. A galeria preserva DSC05914 para a passagem sob a marquise, DSC05867 para a frente do rio, DSC05879 para a banca de frutas e DSC05923 para a convivência entre edifícios. DSC05915, DSC05872, DSC05880, DSC05883, DSC05926 e DSC05754 ficam em reserva.
 

@@ -15,7 +15,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05877.jpg",
@@ -26,7 +26,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Entre paredes, um caminho",
       "caption": "Os edifícios estreitam o céu e deixam uma faixa de luz sobre a passagem. Janelas, marquises e paredes manchadas mostram diferentes tempos de uso do Centro. Entre volumes de concreto, a rua continua sendo caminho para quem trabalha, passa e volta.",
       "alt": "Rua estreita entre edifícios altos, com paredes manchadas, marquises, carros estacionados e uma faixa de luz no pavimento.",
@@ -50,7 +50,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Pele sobre pele",
@@ -67,7 +67,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05874.jpg",
@@ -78,7 +78,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O gesto que o tempo guarda",
       "caption": "Uma figura mantém o braço erguido sobre a fachada, enquanto o suporte perde revestimento e recebe pequenas plantas. O gesto parece durar mais que a matéria que o sustenta. A fotografia aproxima a memória construída das necessidades concretas de conservação e cuidado.",
       "alt": "Estátua de figura humana com vestes longas e um braço erguido, sobre o coroamento de um edifício com manchas, perda de revestimento e vegetação.",
@@ -96,7 +96,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A luz perdeu algumas janelas",
       "caption": "Vidros quadrados, peças ausentes e tapumes formam uma superfície interrompida. A luz encontra vazios onde antes havia fechamento, e o olhar acompanha as falhas até a calçada. A imagem transforma um detalhe arquitetônico em pergunta sobre proteção, manutenção e possibilidade de uso.",
       "alt": "Fachada com uma faixa vertical de pequenos vidros quadrados, algumas peças ausentes ou danificadas, inscrições e tapumes metálicos junto à calçada.",
@@ -114,7 +114,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O chão pede cuidado",
       "caption": "O entulho ocupa o chão junto à parede de azulejos danificados. As sombras desenham linhas sobre uma passagem que pede atenção de quem anda. O desgaste aparece na escala do corpo: circular pela cidade também depende de encontrar um caminho cuidado e acessível.",
       "alt": "Parede com azulejos danificados, inscrições e uma janela gradeada, com entulho e pequenos postes no chão, atravessados por sombras.",
@@ -138,7 +138,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05914.jpg",
@@ -149,7 +149,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Passos sob o concreto",
       "caption": "Pessoas caminham sob a marquise, ao lado de portas metálicas e objetos acumulados. A perspectiva conduz o olhar adiante e mostra a passagem em uso. A vida segue pelo Centro ao mesmo tempo que o espaço exige manutenção, acolhimento e condições melhores para quem o atravessa.",
       "alt": "Duas pessoas caminham sob uma marquise comprida, junto a lojas com portas metálicas fechadas, inscrições nas paredes e objetos na calçada.",
@@ -168,7 +168,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A margem dos contrastes",
       "caption": "O Capibaribe coloca lado a lado edifícios conservados e fachadas marcadas pelo tempo. A paisagem permite perguntar como o investimento se distribui entre imóveis, ruas e pessoas. Os estudos do projeto aprofundam essa questão, aproximando valorização urbana, acesso aos espaços e direito de permanecer.",
       "alt": "Vista do Capibaribe com uma sequência de edifícios altos na outra margem, alguns com inscrições e fachadas desgastadas, sob céu azul com nuvens.",
@@ -195,7 +195,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1600,
       "height": 1200,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Um endereço para ficar",
@@ -212,7 +212,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "contextLink": "#gentrificacao",
       "contextLabel": "Ler sobre valorização e acesso à cidade"
     },
@@ -231,7 +231,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "contextLink": "#gentrificacao",
       "contextLabel": "Ler sobre valorização e acesso à cidade"
     },
@@ -244,7 +244,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Um lugar para descansar",
       "caption": "Uma pessoa faz uma pausa junto à vitrine, com os joelhos recolhidos e uma sacola ao lado. O enquadramento aproxima a discussão urbana de uma necessidade simples: ter onde estar. O direito à cidade também envolve descanso, acolhimento e atenção a quem ocupa suas calçadas.",
       "alt": "Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.",
@@ -270,7 +270,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "contextLink": "#barreiras-acesso",
       "contextLabel": "Ler sobre acesso e permanência na cidade",
       "featured": true
@@ -290,7 +290,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "O peso da ausência",
@@ -307,27 +307,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
-    },
-    {
-      "originalFile": "DSC05748.jpg",
-      "src": "assets/autorais/DSC05748.jpg",
-      "title": "Sob a marquise, a vida",
-      "caption": "A marquise, os pilares e as bancas aproximam a memória do antigo Trianon da circulação cultural nas calçadas. Livros, discos e filmes encontram público junto à arquitetura marcada pelo tempo. A comparação com 1961 introduz uma passagem entre a história das salas e os caminhos atuais das obras.",
-      "alt": "Fachada com grandes pilares e uma marquise, com livros e outros produtos expostos na calçada e pessoas junto às bancas.",
-      "location": "Centro do Recife · entorno da Avenida Guararapes",
-      "locationConfidence": "Provável",
-      "locationSourceUrl": "https://www.folhape.com.br/noticias/recife-doara-terrenos-do-edificio-trianon-e-do-cine-art-palacio-para/339391/",
-      "date": "2026-11-05",
-      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
-      "author": "Samico",
-      "license": "Direitos da pessoa autora",
-      "width": 1600,
-      "height": 1200,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
-      "contextLink": "#cinema-na-calcada",
-      "contextLabel": "Ler a memória do cinema e dos sebos",
-      "featured": true
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "O amanhã, letra por letra",
@@ -344,7 +324,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Versos sob a luz",
@@ -361,7 +341,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "src": "assets/autorais/DSC05674.jpg",
@@ -378,7 +358,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05879.jpg",
@@ -389,7 +369,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O sustento pendurado",
       "caption": "Bananas penduradas, abacaxis e caixas de frutas dão ritmo e cor à esquina. A banca acompanha as necessidades de quem circula e o trabalho de quem prepara o sustento. A vida do Centro se mantém também nessa relação diária entre alimento, comércio e presença na rua.",
       "alt": "Pessoa de costas diante de uma banca de frutas, com cachos de bananas e abacaxis pendurados, caixas de produtos e carros ao fundo.",
@@ -413,7 +393,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "featured": true
     },
     {
@@ -431,7 +411,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Morada de papel",
@@ -448,7 +428,27 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
+    },
+    {
+      "originalFile": "DSC05748.jpg",
+      "src": "assets/autorais/DSC05748.jpg",
+      "title": "Sob a marquise, a vida",
+      "caption": "A marquise e os pilares aproximam a memória do antigo Trianon dos sebos que continuam ocupando a calçada. Livros, discos e filmes encontram público junto à arquitetura marcada pelo tempo. Esta fotografia em preto e branco integra o Recife vivo porque acompanha a permanência da arte nas bancas e nos encontros.",
+      "alt": "Fachada com grandes pilares e uma marquise, com livros e outros produtos expostos na calçada e pessoas junto às bancas.",
+      "location": "Centro do Recife · entorno da Avenida Guararapes",
+      "locationConfidence": "Provável",
+      "locationSourceUrl": "https://www.folhape.com.br/noticias/recife-doara-terrenos-do-edificio-trianon-e-do-cine-art-palacio-para/339391/",
+      "date": "2026-11-05",
+      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
+      "author": "Samico",
+      "license": "Direitos da pessoa autora",
+      "width": 1600,
+      "height": 1200,
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
+      "contextLink": "#cinema-na-calcada",
+      "contextLabel": "Ler a memória do cinema e dos sebos",
+      "featured": true
     },
     {
       "title": "A tela mora na calçada",
@@ -465,7 +465,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "contextLink": "#cinema-na-calcada",
       "contextLabel": "Ler a memória do cinema e dos sebos"
     },
@@ -478,7 +478,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A porta tem som",
       "caption": "A entrada da loja já apresenta um repertório: capas, cartazes e lembranças musicais dividem a superfície. Antes de qualquer disco tocar, o olhar reconhece referências e encontra outras. A porta prepara o encontro com um espaço em que a música é também objeto, memória e conversa.",
       "alt": "Porta de vidro com cartazes de rock, uma imagem de perfil com um réptil sobre a cabeça, anúncios e pequenos impressos musicais.",
@@ -496,7 +496,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Seu João, guardião de encontros",
       "caption": "Seu João organiza os discos no balcão, cercado por capas e imagens de diferentes repertórios. A fotografia acompanha o gesto de lidar com o acervo, aproximando a permanência da música de um trabalho cotidiano. A cultura encontra continuidade nas pessoas que a colocam novamente em circulação.",
       "alt": "Seu João organiza discos no balcão de uma loja, cercado por capas de CDs, cartazes e imagens de músicos.",
@@ -517,7 +517,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O sorriso de Seu João",
       "caption": "O sorriso de Seu João dá ao acervo uma presença próxima. Depois do plano do balcão, o retrato faz o percurso parar diante de quem participa desse encontro com a música. Entre discos, gestos e conversa, o Recife vivo ganha um rosto e uma forma de acolher.",
       "alt": "Seu João sorri e ergue uma das mãos, atrás do balcão de uma loja de discos com estantes de CDs ao fundo.",
@@ -544,7 +544,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "A memória gira",
@@ -561,7 +561,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "frança",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "A rua aprende a sonhar",
@@ -578,7 +578,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "src": "assets/autorais/DSC05785.jpg",
@@ -595,7 +595,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "src": "assets/autorais/DSC05645.jpg",
@@ -612,7 +612,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05923.jpg",
@@ -623,7 +623,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A conversa ocupa a rua",
       "caption": "Mesas e cadeiras levam a conversa para o espaço entre os edifícios. Sentar, comer e permanecer mudam o ritmo da passagem. O Centro se torna lugar de convivência quando a rotina abre tempo para a companhia e quando a rua pode receber outros usos além da pressa.",
       "alt": "Rua estreita de pedras entre edifícios, com bares, mesas e cadeiras plásticas, pessoas sentadas e vasos com plantas ao longo da passagem.",
@@ -641,7 +641,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O tempo senta à mesa",
       "caption": "Uma pessoa segura os óculos junto à mesa, entre objetos simples e uma parede de cor quente. A pausa oferece ao percurso outra medida de tempo. A cidade também acontece na atenção de um gesto, na possibilidade de descansar e na presença de quem permanece.",
       "alt": "Pessoa de cabelos brancos sentada em uma cadeira, segurando os óculos junto ao peito, ao lado de uma mesa branca com uma garrafa de água.",
@@ -665,7 +665,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Nós, na cor da rua",
@@ -682,7 +682,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "src": "assets/autorais/DSC05684.jpg",
@@ -699,7 +699,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1600,
       "height": 1200,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "contextLink": "#barreiras-acesso",
       "contextLabel": "Ler sobre acesso e permanência na cidade"
     },
@@ -712,7 +712,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A cidade atravessa",
       "caption": "Ônibus e pessoas cruzam o rio enquanto a margem aparece em primeiro plano. A ponte reúne trajetos de trabalho, retorno e encontro. Ao conduzir o olhar da rua à água, a fotografia mostra o Recife como uma cidade feita também das ligações entre suas partes.",
       "alt": "Ponte de concreto com lateral vermelha sobre o Capibaribe, com ônibus e pedestres, margem baixa em primeiro plano e uma cúpula entre os telhados ao fundo.",
@@ -736,7 +736,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05669-3.jpg",
@@ -753,7 +753,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1200,
       "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "A lama inventa raízes",
@@ -770,7 +770,7 @@ window.RECIFE_DATA = {
       "height": 1200,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "src": "assets/autorais/DSC05777.jpg",
@@ -787,7 +787,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "width": 1600,
       "height": 1200,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "title": "Onde a margem abraça",
@@ -804,7 +804,7 @@ window.RECIFE_DATA = {
       "height": 1600,
       "author": "Samico",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo."
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
       "originalFile": "DSC05934.jpg",
@@ -815,7 +815,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O rio continua ocupado",
       "caption": "Uma pessoa organiza a rede na canoa; ao fundo, remadores atravessam a água sob a ponte. Trabalho, prática esportiva e circulação compõem diferentes usos do mesmo rio. O percurso chega ao Capibaribe em atividade, onde a vida se mantém pelos gestos de quem o ocupa.",
       "alt": "Pessoa com chapéu organizando uma rede em uma canoa vermelha, com duas pequenas embarcações a remo atrás e uma ponte verde-azulada na parte superior da imagem.",
@@ -834,7 +834,7 @@ window.RECIFE_DATA = {
       "date": "2026-11-11",
       "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
       "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. A apresentação monocromática é um efeito de exibição; o botão do Recife Vivo revela as cores dos originais desse capítulo.",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Até aqui, seguimos",
       "caption": "A vista lateral da canoa revela a frase pintada no casco enquanto uma pessoa trabalha em seu interior. A fotografia encerra o ensaio com uma ação ainda em curso. O Recife segue vivo nessa continuidade: no sustento, nos vínculos e no direito de fazer parte da cidade.",
       "alt": "Canoa vermelha vista de lado, com uma pessoa inclinada em seu interior, motor na ponta e a inscrição Até aqui nos ajudou o Senhor na lateral; uma pequena embarcação a remo aparece ao fundo.",
@@ -909,7 +909,7 @@ window.RECIFE_DATA = {
     {
       "number": "IV",
       "title": "A arte circula",
-      "intro": "A memória do Trianon encontra os filmes nas bancas; o trabalho no letreiro do São Luiz encontra o cordel no acervo do CENA. A arte circula entre edifícios, suportes e pessoas. Este capítulo prepara a passagem para a cor ao acompanhar quem mantém imagens, palavras e sessões em relação com o público.",
+      "intro": "O trabalho no letreiro do São Luiz encontra o cordel no acervo do CENA. A arte circula entre suportes e pessoas: montar uma programação, conservar um impresso e receber o público são gestos que mantêm a criação presente na cidade. O percurso segue desses encontros para o trabalho, os sebos e a vida nas ruas.",
       "stanza": [
         "Quando a sala fecha a porta,",
         "Segue viva a criação.",
@@ -918,12 +918,12 @@ window.RECIFE_DATA = {
         "Seu João reúne as vozes:",
         "Cada encontro, uma canção."
       ],
-      "photoCount": 3
+      "photoCount": 2
     },
     {
       "number": "V",
       "title": "Recife vivo",
-      "intro": "Vinte e sete fotografias coloridas acompanham a cidade que continua sendo feita: a banca que abre, o livro que muda de mãos, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A sobrevivência aparece em gestos de trabalho, criação e convivência. O rio encerra o caminho com pessoas em atividade, deixando a vida seguir para além da última imagem.",
+      "intro": "Vinte e oito fotografias acompanham a cidade que continua sendo feita: a banca que abre, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.",
       "stanza": [
         "Cada remo risca a água,",
         "Cada rede é profissão.",
@@ -933,7 +933,7 @@ window.RECIFE_DATA = {
         "Quando a vida tem seu chão."
       ],
       "alive": true,
-      "photoCount": 27,
+      "photoCount": 28,
       "sections": {
         "0": {
           "number": "01",
@@ -943,29 +943,29 @@ window.RECIFE_DATA = {
         "3": {
           "number": "02",
           "title": "As histórias encontram público",
-          "intro": "Livros, filmes e discos encontram novos públicos. Entre as capas e o balcão de Seu João, a cultura permanece viva porque há pessoas que a conservam, apresentam e compartilham."
+          "intro": "Livros, filmes e discos encontram novos públicos. A memória do Trianon se aproxima dos sebos que seguem em atividade: o cinema permanece também nos filmes oferecidos nas bancas. Da marquise ao balcão de Seu João, a cultura continua viva em quem conserva, procura e compartilha as obras."
         },
-        "9": {
+        "10": {
           "number": "03",
           "title": "Criar também é permanecer",
           "intro": "A fotografia, a projeção, a formação em audiovisual e a pintura produzem novas relações com a paisagem. Criar amplia as maneiras de participar da cidade e de imaginar seu futuro."
         },
-        "13": {
+        "14": {
           "number": "04",
           "title": "A cidade encontra companhia",
           "intro": "Flores, mesas e retratos dão lugar à presença e ao afeto. O cotidiano ganha outro ritmo quando é possível descansar, conversar e ocupar os espaços em companhia."
         },
-        "19": {
+        "20": {
           "number": "05",
           "title": "Atravessar para continuar",
           "intro": "Pontes, pessoas e ônibus levam o olhar da rua às margens. Cada travessia conecta rotinas e lembra que alcançar os lugares faz parte do direito de viver a cidade."
         },
-        "21": {
+        "22": {
           "number": "06",
           "title": "Chegar perto da água",
           "intro": "O mangue, as raízes e os encontros junto ao Capibaribe aproximam o olhar da água. Entre o que cresce e quem permanece, a paisagem apresenta outras formas de continuidade."
         },
-        "25": {
+        "26": {
           "number": "07",
           "title": "O rio continua em movimento",
           "intro": "A canoa, a rede e os remos encerram o percurso com ações em curso. O Recife continua sendo feito por quem trabalha, atravessa e encontra maneiras de viver o rio."
@@ -1012,7 +1012,7 @@ window.RECIFE_DATA = {
     }
   ],
   "cinemaMemory": {
-    "intro": "Uma fotografia de 1961 e a fachada registrada em 2026 aproximam dois tempos da vida cultural do Centro. A lembrança do antigo Trianon abre a leitura para os sebos e para os filmes que continuam encontrando público nas bancas. O percurso atravessa essa memória antes de chegar às fotografias coloridas do Recife vivo.",
+    "intro": "Uma fotografia de 1961 e a fachada registrada em 2026 aproximam dois tempos da vida cultural do Centro. O antigo Trianon entra no Recife vivo junto aos sebos: a sala encerrou suas sessões, enquanto livros, discos e filmes continuam encontrando público nas bancas. A fotografia em preto e branco participa dessa leitura de resistência cultural pela atividade que permanece ao redor do cinema.",
     "past": "O Trianon integrou o circuito de cinemas de rua da Avenida Guararapes e encerrou suas sessões. Em 2025, o local recebeu uma placa de memória dos cinemas da cidade.",
     "pastSource": {
       "url": "https://recentro.recife.pe.gov.br/roteiro-dos-lugares-afetivos-dos-cinemas-de-rua-celebra-a-memoria-cinematografica-do-recife/",
@@ -1069,7 +1069,7 @@ window.RECIFE_DATA = {
       "url": "https://vimeo.com/10147776",
       "label": "Ver o Art-Palácio em Homem de Projeção (1992) · filme publicado por Kleber Mendonça Filho"
     },
-    "sequenceNote": "A fachada abre a memória; mais adiante, no Recife vivo, as capas de filmes e os discos de Seu João devolvem o percurso ao encontro com as obras e com as pessoas.",
+    "sequenceNote": "Dos livros à marquise, das capas de filmes ao balcão de Seu João, esta passagem acompanha as obras e as pessoas que mantêm a arte em circulação. O preto e branco guarda a memória do cinema dentro de um Recife que continua vivo.",
     "comparison": {
       "historical": {
         "src": "assets/acervo/trianon-1961-mario-de-carvalho.jpg",

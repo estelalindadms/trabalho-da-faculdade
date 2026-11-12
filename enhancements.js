@@ -25,7 +25,7 @@
     bridge.innerHTML = '<img class="alive-bridge-art" src="assets/linha-matriz.svg" alt="" aria-hidden="true"><div class="alive-bridge-content"><div><p class="eyebrow">DA FERIDA AO PULSO</p><h2>O Recife resiste<br><em>em quem fica.</em></h2></div><div class="alive-bridge-copy"><p>O Recife continua nas mãos que trabalham, nas conversas de calçada e nos livros, discos e filmes que passam de uma pessoa a outra. A arte ocupa paredes e prateleiras; o encontro transforma a rua em lugar de convivência. Entre o concreto e a água, esses gestos mantêm a cidade em movimento.</p><p>Há vida junto às feridas que este percurso mostrou. Reconhecê-la também é defender o direito de morar, trabalhar, criar e permanecer no centro. As cores acompanham quem sustenta esse cotidiano: gente que merece condições para viver a cidade, além de resistir às suas dificuldades.</p></div></div>';
     const controls = document.createElement('div');
     controls.className = 'alive-controls';
-    controls.innerHTML = '<button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo" aria-describedby="alive-help"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><p id="alive-help" class="alive-help">As fotografias começam com um filtro em preto e branco. Ative o botão para revelar suas cores originais.</p><p id="alive-status" class="alive-status" role="status" aria-live="polite" aria-atomic="true"></p>';
+    controls.innerHTML = '<button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo" aria-describedby="alive-help"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><p id="alive-help" class="alive-help">Ative o botão para revelar o tratamento original das fotografias. A fachada do Trianon e a imagem histórica permanecem em preto e branco.</p><p id="alive-status" class="alive-status" role="status" aria-live="polite" aria-atomic="true"></p>';
     bridge.querySelector('.alive-bridge-copy').append(controls);
     alive.prepend(bridge);
     aliveButton = controls.querySelector('#alive-reveal');
@@ -46,15 +46,14 @@
     aliveButton.setAttribute('aria-pressed', String(revealed));
     aliveButton.querySelector('span').textContent = originalColors ? 'Cores originais ativadas' : revealed ? 'Rever em preto e branco' : 'Devolver a cor';
     aliveHelp.textContent = originalColors
-      ? 'A preferência “Cores originais” mantém as fotografias coloridas. Desative essa opção em Acessibilidade para usar este botão.'
+      ? 'A preferência “Cores originais” mantém o tratamento de cada fotografia, em cor ou preto e branco. Desative essa opção em Acessibilidade para usar este botão.'
       : revealed
-        ? 'As fotografias exibem suas cores originais. O botão permite rever o tratamento em preto e branco.'
-        : 'As fotografias começam com um filtro em preto e branco. Ative o botão para revelar suas cores originais.';
+        ? 'As fotografias exibem seu tratamento original. O Trianon permanece em preto e branco. O botão permite rever a apresentação monocromática.'
+        : 'Ative o botão para revelar o tratamento original das fotografias. A fachada do Trianon e a imagem histórica permanecem em preto e branco.';
     if (announce) {
-      const total = alive.querySelectorAll('.photo-card').length;
       aliveStatus.textContent = revealed
-        ? 'Recife Vivo ganhou cor. As ' + total + ' fotografias exibem agora suas cores originais.'
-        : 'Recife Vivo voltou ao tratamento em preto e branco. As fotografias originais continuam coloridas.';
+        ? 'Recife Vivo ganhou cor. A fachada do Trianon e a imagem histórica permanecem em preto e branco, junto à vida dos sebos.'
+        : 'Recife Vivo voltou à apresentação em preto e branco. O conteúdo e os arquivos originais foram preservados.';
     }
   }
   function applyPreferences(announce = false) {
