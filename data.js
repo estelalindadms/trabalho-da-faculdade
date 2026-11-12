@@ -151,12 +151,12 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Passos sob o concreto",
-      "caption": "Pessoas caminham sob a marquise, ao lado de portas metálicas e objetos acumulados. A perspectiva conduz o olhar adiante e mostra a passagem em uso. A vida segue pelo Centro ao mesmo tempo que o espaço exige manutenção, acolhimento e condições melhores para quem o atravessa.",
-      "alt": "Duas pessoas caminham sob uma marquise comprida, junto a lojas com portas metálicas fechadas, inscrições nas paredes e objetos na calçada.",
+      "caption": "Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.",
+      "alt": "Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
       "locationSourceUrl": "https://www.locaisdobrasil.com.br/encontre/lanches/recife-pe/acai-da-duda/632b13e5a00b5f5ee7b3784e",
-      "placeReading": "A marquise oferece uma passagem coberta, ocupada por pedestres, portas comerciais e objetos. As lojas aparecem fechadas no instante do registro; o eixo do olhar está na convivência entre a circulação das pessoas e o cuidado com o espaço.",
+      "placeReading": "A marquise oferece um trecho coberto ao longo da calçada. A cena permite observar como a largura da passagem e a proteção contra o sol e a chuva influenciam os trajetos a pé pelo Centro.",
       "featured": true
     },
     {
@@ -246,20 +246,20 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Um lugar para descansar",
-      "caption": "Uma pessoa faz uma pausa junto à vitrine, com os joelhos recolhidos e uma sacola ao lado. O enquadramento aproxima a discussão urbana de uma necessidade simples: ter onde estar. O direito à cidade também envolve descanso, acolhimento e atenção a quem ocupa suas calçadas.",
+      "caption": "Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?",
       "alt": "Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
       "locationSourceUrl": "",
-      "placeReading": "O espaço diante de uma vitrine também pode ser lugar de pausa. A leitura se concentra nas condições de descanso e acolhimento oferecidas pela cidade, preservando a pessoa retratada de suposições sobre sua história ou condição de moradia.",
+      "placeReading": "Bancos, sombra e espaços de permanência ajudam a fazer do Centro um lugar onde é possível caminhar e também descansar. A fotografia convida a observar onde essas condições estão disponíveis ao longo do percurso.",
       "contextLink": "#barreiras-acesso",
       "contextLabel": "O direito de estar, circular e permanecer"
     },
     {
       "src": "assets/autorais/DSC05662.jpg",
       "originalFile": "DSC05662.jpg",
-      "title": "O peso que move a rua",
-      "caption": "Uma pessoa conduz um carrinho entre as paredes do beco. O peso transportado dá corpo ao trabalho que atravessa o Centro e mantém sua rotina em movimento. Ao encerrar a pergunta sobre permanência, a imagem lembra que quem sustenta a cidade precisa encontrar lugar nela.",
+      "title": "Um carrinho pelo Centro",
+      "caption": "Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia encerra o capítulo com uma cena de circulação cotidiana e convida a pensar em como a cidade recebe esses trajetos.",
       "alt": "Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -873,8 +873,8 @@ window.RECIFE_DATA = {
         },
         "8": {
           "number": "03",
-          "title": "A rua ainda é passagem",
-          "intro": "A galeria encontra a presença das pessoas. O percurso começa a sair das superfícies e a perguntar por quem ocupa a cidade."
+          "title": "A rua em uso",
+          "intro": "Calçadas e passagens cobertas fazem parte da rotina de quem circula, trabalha e descansa no Centro. O estado desses espaços afeta a vida de quem os utiliza. Que condições o Recife oferece para caminhar, parar e permanecer?"
         }
       }
     },
