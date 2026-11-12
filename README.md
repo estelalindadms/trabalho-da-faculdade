@@ -12,7 +12,7 @@ Um ensaio fotográfico e poético em 47 fotografias autorais, com linguagem grá
 
 O ensaio reúne 47 fotografias autorais: 27 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 16 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
 
-Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo mostra permanentemente as cores de 27 originais coloridos, sem colorização artificial. Os dois registros originalmente em preto e branco que estavam no Vivo foram integrados aos capítulos anteriores. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
+Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 27 originais coloridos, revelados pelo botão Devolver a cor, sem colorização artificial. Os dois registros originalmente em preto e branco que estavam no Vivo foram integrados aos capítulos anteriores. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
 
 ## Música e leitura
 
@@ -28,7 +28,7 @@ Os créditos e direitos das fotos estão em `assets/credits.json` e no próprio 
 
 ## Recife vivo e identidade visual
 
-O quinto movimento reúne 27 fotografias coloridas, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. A cor aparece diretamente no Recife Vivo, sem alternância ou botão de revelação. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
+O quinto movimento reúne 27 fotografias coloridas, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela os 27 originais coloridos do Recife Vivo; permite rever a apresentação em preto e branco. A preferência Cores originais mantém a cor sem depender dessa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
 
 O refinamento visual e os controles de acesso estão em `enhancements.css` e `enhancements.js`. O painel oferece texto maior, contraste reforçado, retirada de texturas, redução de movimento, cores originais e fonte simples. As preferências são salvas somente no navegador. A leitura tem controles de pausa, retomada e parada.
 
@@ -92,3 +92,13 @@ Seu João foi identificado pela autoria nas fotografias DSC05896 e DSC05906. As 
 As cinco sextilhas foram revistas para dialogar com a memória cotidiana de Manuel Bandeira, o Capibaribe e o trabalho em João Cabral de Melo Neto e o encontro de linguagens de Antônio Nóbrega. São versos originais do projeto, sem reprodução ou atribuição de poemas desses artistas. As fontes institucionais estão na seção Referências.
 
 Os textos de apresentação, os cinco movimentos e as 47 legendas foram desenvolvidos. As legendas de localização exibem o recorte geográfico sustentado; os dados de confiança permanecem no arquivo para pesquisa, sem rótulos de identificação pendente na experiência de leitura.
+
+## Acesso ao conteúdo visual e sonoro
+
+Cada fotografia tem uma descrição visual em texto, separada da interpretação poética. Na ampliação, a leitura automática opcional reúne descrição, interpretação e crédito, com pausa e parada dentro da janela; interrompe ao trocar ou fechar e pausa a música. O poema continua integralmente em texto, e é possível retirar a trilha da leitura por voz. A voz depende do suporte do navegador e não substitui um leitor de tela.
+
+leitura.html oferece uma página estática, linear e sem imagens, com os 47 registros descritos, poema, memória do cinema e seção de gentrificação. Funciona sem JavaScript. assets/percurso-em-texto.txt oferece o mesmo percurso em texto simples para download. O site explica a função da trilha instrumental, sem informação exclusiva no áudio.
+
+A galeria anuncia número e título ao trocar de foto, direciona o foco ao título ao abrir e devolve o foco ao botão de origem ao fechar. O botão de cor usa estado pressionado, explicação e mensagem textual. Estes recursos passaram por verificações de estrutura e comportamento programático; não constituem uma certificação nem substituem teste com pessoas usuárias de leitores de tela.
+
+O curta ainda está em produção. Os campos de legendas, transcrição, audiodescrição e signLanguageSrc só exibem recursos quando existem arquivos reais correspondentes. A versão em Libras deve ser uma interpretação gravada da montagem final.

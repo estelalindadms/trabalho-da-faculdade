@@ -3,7 +3,7 @@ O QUE AINDA PULSA — PLANO AUTORAL PARA A3
 Proposta: um curta de cerca de 90 segundos ligado ao ensaio de 47 fotografias autorais e ao cordel.
 
 1. CINCO MOVIMENTOS, UM PERCURSO
-O ensaio reúne trinta e uma fotografias autorais feitas em 5 de novembro de 2026. A montagem atravessa a pele da rua, a permanência, a resistência, a circulação da arte e o Recife vivo. Confirmar os pontos ainda sem endereço antes de gravar cartelas com localização.
+O ensaio reúne 47 fotografias autorais: 31 de 5 de novembro e 16 de 11 de novembro de 2026. A montagem atravessa a pele da rua, a permanência, a resistência, a circulação da arte e o Recife vivo. Confirmar os pontos ainda sem endereço antes de gravar cartelas com localização.
 
 2. UMA FOLHA EM TRÂNSITO
 Escrever o cordel após observar o percurso. Fotografar e filmar a mesma folha em relação com os espaços. Guardar rascunhos para mostrar decisões e autoria.
@@ -20,7 +20,7 @@ Pessoa 3: som, edição e montagem no site.
 Todos participam das escolhas e da revisão.
 
 ACESSO AO CONTEÚDO FINAL
-Preparar legendas em português com falas e informações sonoras relevantes; transcrição integral; descrição textual das imagens e uma versão com audiodescrição. O site já reserva os campos, mas esses arquivos devem corresponder ao filme efetivamente produzido.
+Preparar legendas em português com falas e informações sonoras relevantes; transcrição descritiva integral; descrição textual das imagens, uma versão com audiodescrição e interpretação em Libras da montagem final. O site já reserva os campos, mas esses arquivos devem corresponder ao filme efetivamente produzido.
 
 PUBLICAÇÃO DO CURTA
 Em data.js, preencher shortFilm.src com o caminho do MP4 e shortFilm.captionsSrc com o arquivo WebVTT final. Preencher shortFilm.transcript com a transcrição real. shortFilm.audioDescriptionSrc pode apontar para a versão do vídeo com audiodescrição. A interface continua como 'Em produção' enquanto não houver vídeo.
@@ -29,3 +29,6 @@ SOBRE ESTA BASE
 As fotografias desta versão são autorais. A interpretação do poema, o registro sonoro e as decisões de montagem completarão a produção do grupo.
 
 Percurso de montagem: entrar pelas frestas, aproximar o olhar do desgaste, perguntar por permanência, passar pela memória e pela arte, encontrar trabalho e companhia, seguir pelas pontes e encerrar no rio com DSC05934 e DSC05942.
+
+RECURSOS JÁ DISPONÍVEIS NO ENSAIO
+Descrições visuais das 47 fotos, interpretação e poema integral em texto. Versão linear em leitura.html e download em assets/percurso-em-texto.txt. A voz automática opcional possui pausa e parada; a música pode ser desligada durante o cordel. Nenhuma informação do ensaio depende exclusivamente do som ou da revelação da cor.

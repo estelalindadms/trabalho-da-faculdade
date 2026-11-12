@@ -36,7 +36,8 @@
       '</button>' +
       '<figcaption class="photo-caption"><span>' + pad(index + 1) + '</span><div>' +
         '<h3>' + escape(photo.title) + '</h3><p>' + escape(photo.caption) + '</p>' + contextLink +
-        '<small>' + escape(photo.author) + ' · ' + escape(dateLabel(photo)) + '<br>' + escape(locationLabel(photo)) + '</small>' + placeReading +
+        '<small>' + escape(photo.author) + ' · ' + escape(dateLabel(photo)) + '<br>' + escape(locationLabel(photo)) + '</small>' +
+        '<details class="photo-visual-description"><summary>Descrição visual</summary><p id="' + figureId + '-visual-description">' + escape(photo.alt) + '</p></details>' + placeReading +
       '</div></figcaption></figure>';
   }
   function renderCinemaMemory(photo, photoIndex) {
@@ -102,6 +103,9 @@
   const dialog = document.getElementById('photo-dialog');
   let currentPhoto = 0;
   function showPhoto(index) {
+    stopPhotoReading();
+    stopReading();
+    photoSpeechStatus.textContent = '';
     currentPhoto = (index + photos.length) % photos.length;
     const photo = photos[currentPhoto];
     const image = document.getElementById('lightbox-image');
@@ -110,10 +114,12 @@
     document.getElementById('photo-counter').textContent = pad(currentPhoto + 1) + ' / ' + photos.length;
     document.getElementById('lightbox-title').textContent = photo.title;
     document.getElementById('lightbox-description').textContent = photo.alt;
+    document.getElementById('lightbox-caption').textContent = photo.caption;
     document.getElementById('lightbox-credit').innerHTML = photoCredit(photo);
     document.getElementById('photo-date-label').textContent = 'FOTOGRAFIA AUTORAL / ' + dateLabel(photo);
+    document.getElementById('photo-announcement').textContent = 'Fotografia ' + (currentPhoto + 1) + ' de ' + photos.length + ': ' + photo.title + '.';
   }
-  document.querySelectorAll('.photo-open').forEach(button => button.addEventListener('click', () => { showPhoto(Number(button.dataset.photo)); dialog.showModal(); }));
+  document.querySelectorAll('.photo-open').forEach(button => button.addEventListener('click', () => { showPhoto(Number(button.dataset.photo)); dialog.showModal(); dialog.scrollTop = 0; }));
   document.getElementById('photo-close').addEventListener('click', () => dialog.close());
   document.getElementById('photo-prev').addEventListener('click', () => showPhoto(currentPhoto - 1));
   document.getElementById('photo-next').addEventListener('click', () => showPhoto(currentPhoto + 1));
@@ -128,9 +134,20 @@
   const stopButton = document.getElementById('reading-stop');
   const toast = document.getElementById('toast');
   const synth = window.speechSynthesis;
+  const canSpeak = !!synth && typeof SpeechSynthesisUtterance !== 'undefined';
   let reading = false;
   let readingPaused = false;
   let utterance = null;
+  let readingTrigger = null;
+  let readingRequest = 0;
+  let photoReading = false;
+  let photoReadingPaused = false;
+  let photoUtterance = null;
+  let photoRequest = 0;
+  const photoSpeech = document.getElementById('photo-speech');
+  const photoSpeechPause = document.getElementById('photo-speech-pause');
+  const photoSpeechStop = document.getElementById('photo-speech-stop');
+  const photoSpeechStatus = document.getElementById('photo-speech-status');
   let timer;
   audio.volume = Number(volume.value) / 100;
   function notify(message) {
@@ -145,6 +162,7 @@
     musicToggle.setAttribute('aria-pressed', String(playing));
     musicToggle.querySelector('span').textContent = playing ? 'Ⅱ' : '▶';
     musicToggle.setAttribute('aria-label', playing ? 'Pausar música de fundo' : 'Tocar música de fundo');
+    document.getElementById('sound-state').textContent = playing ? 'Trilha tocando' : 'Trilha pausada';
   }
   async function playMusic() {
     try { await audio.play(); } catch { notify('Toque no botão de música para iniciar a trilha.'); }
@@ -159,12 +177,16 @@
   });
   volume.addEventListener('input', () => { audio.volume = Number(volume.value) / 100; });
   function readingUI() {
+    const returnFocus = document.activeElement === stopButton || document.activeElement === document.getElementById('reading-pause');
     document.querySelectorAll('.narration-label').forEach(label => { label.textContent = reading ? 'Parar a leitura' : 'Ouvir o cordel'; });
+    document.querySelectorAll('.narration-trigger').forEach(button => button.setAttribute('aria-pressed', String(reading)));
     stopButton.hidden = !reading;
     document.getElementById('reading-pause').hidden = !reading;
     document.querySelector('.sound-player').classList.toggle('is-reading', reading);
+    if (!reading && returnFocus && readingTrigger) readingTrigger.focus({preventScroll:true});
   }
   function stopReading() {
+    readingRequest++;
     reading = false;
     readingPaused = false;
     if (synth) synth.cancel();
@@ -174,8 +196,15 @@
   }
   document.querySelectorAll('.narration-trigger').forEach(button => button.addEventListener('click', async () => {
     if (reading) { stopReading(); return; }
-    await playMusic();
-    if (!synth || typeof SpeechSynthesisUtterance === 'undefined') { notify('A leitura automática não está disponível neste navegador. O poema está na seção O cordel.'); return; }
+    if (!canSpeak) { notify('A leitura em voz não está disponível neste navegador. O poema integral está na seção O cordel e na versão em texto.'); return; }
+    stopPhotoReading();
+    readingTrigger = button;
+    const request = ++readingRequest;
+    reading = true;
+    readingUI();
+    if (document.getElementById('reading-with-music').checked) await playMusic();
+    else audio.pause();
+    if (request !== readingRequest || !reading) { if (!reading) audio.pause(); return; }
     synth.cancel();
     const text = movements.map(movement => movement.stanza.join('. ')).join('. ');
     utterance = new SpeechSynthesisUtterance(text);
@@ -191,26 +220,98 @@
     document.getElementById('reading-pause').setAttribute('aria-pressed', 'false');
     document.getElementById('reading-pause').querySelector('span').textContent = 'Ⅱ';
     readingUI();
-    utterance.onend = () => { reading = false; readingUI(); notify('A leitura terminou. A música continua para acompanhar as fotografias.'); };
+    utterance.onend = () => { if (request !== readingRequest) return; reading = false; readingUI(); notify('A leitura terminou. O poema continua disponível em texto.'); };
     utterance.onerror = event => {
-      if (!reading || event.error === 'canceled' || event.error === 'interrupted') return;
+      if (request !== readingRequest || !reading || event.error === 'canceled' || event.error === 'interrupted') return;
       reading = false;
       readingUI();
       notify('A voz de demonstração não está disponível neste navegador. A trilha e o poema continuam acessíveis.');
     };
+    synth.resume();
     synth.speak(utterance);
-    notify('Leitura automática de demonstração, com música instrumental de fundo.');
+    notify(document.getElementById('reading-with-music').checked ? 'Leitura automática do cordel com música de fundo. O texto integral está na página.' : 'Leitura automática do cordel sem música de fundo. O texto integral está na página.');
   }));
   document.getElementById('reading-pause').addEventListener('click', () => {
     if (!reading || !synth) return;
     readingPaused = !readingPaused;
-    if (readingPaused) { synth.pause(); audio.pause(); } else { synth.resume(); playMusic(); }
+    if (readingPaused) { synth.pause(); audio.pause(); } else { synth.resume(); if (document.getElementById('reading-with-music').checked) playMusic(); }
     const button = document.getElementById('reading-pause');
     button.setAttribute('aria-label', readingPaused ? 'Continuar leitura do cordel' : 'Pausar leitura do cordel');
     button.setAttribute('aria-pressed', String(readingPaused));
     button.querySelector('span').textContent = readingPaused ? '▶' : 'Ⅱ';
   });
   stopButton.addEventListener('click', stopReading);
+  document.getElementById('reading-with-music').addEventListener('change', event => {
+    if (!reading) return;
+    if (!readingPaused && event.target.checked) playMusic();
+    else audio.pause();
+  });
+  function photoReadingUI() {
+    const returnFocus = document.activeElement === photoSpeechPause || document.activeElement === photoSpeechStop;
+    photoSpeech.textContent = photoReading ? 'Parar descrição em voz' : 'Ouvir descrição e leitura';
+    photoSpeech.setAttribute('aria-pressed', String(photoReading));
+    photoSpeechPause.hidden = !photoReading;
+    photoSpeechStop.hidden = !photoReading;
+    photoSpeechPause.textContent = photoReadingPaused ? 'Continuar descrição' : 'Pausar descrição';
+    photoSpeechPause.setAttribute('aria-pressed', String(photoReadingPaused));
+    if (!photoReading && returnFocus) photoSpeech.focus({preventScroll:true});
+  }
+  function stopPhotoReading() {
+    const hadReading = photoReading;
+    photoRequest++;
+    photoReading = false;
+    photoReadingPaused = false;
+    if (hadReading && synth) synth.cancel();
+    photoUtterance = null;
+    photoReadingUI();
+    if (hadReading) photoSpeechStatus.textContent = 'Leitura da fotografia interrompida. A descrição continua disponível em texto.';
+  }
+  photoSpeech.addEventListener('click', () => {
+    if (photoReading) { stopPhotoReading(); return; }
+    if (!canSpeak) return;
+    stopReading();
+    const photo = photos[currentPhoto];
+    const text = photo.title + '. Descrição visual: ' + photo.alt + '. Leitura do projeto: ' + photo.caption + ' Fotografia de ' + photo.author + ', ' + dateLabel(photo) + '. ' + locationLabel(photo) + '.';
+    const request = ++photoRequest;
+    photoUtterance = new SpeechSynthesisUtterance(text);
+    photoUtterance.lang = 'pt-BR';
+    photoUtterance.rate = .9;
+    const voice = synth.getVoices().find(voice => voice.lang.toLowerCase().replace('_','-') === 'pt-br');
+    if (voice) photoUtterance.voice = voice;
+    photoReading = true;
+    photoReadingPaused = false;
+    photoReadingUI();
+    photoSpeechStatus.textContent = 'Lendo a descrição e a leitura da fotografia, sem música de fundo.';
+    photoUtterance.onend = () => {
+      if (request !== photoRequest) return;
+      photoReading = false; photoReadingPaused = false; photoReadingUI();
+      photoSpeechStatus.textContent = 'Leitura da fotografia concluída.';
+    };
+    photoUtterance.onerror = event => {
+      if (request !== photoRequest || event.error === 'canceled' || event.error === 'interrupted') return;
+      photoReading = false; photoReadingPaused = false; photoReadingUI();
+      photoSpeechStatus.textContent = 'A voz não está disponível. A descrição visual e a leitura do projeto continuam em texto nesta janela.';
+    };
+    synth.resume();
+    synth.speak(photoUtterance);
+  });
+  photoSpeechPause.addEventListener('click', () => {
+    if (!photoReading || !synth) return;
+    photoReadingPaused = !photoReadingPaused;
+    if (photoReadingPaused) synth.pause(); else synth.resume();
+    photoReadingUI();
+    photoSpeechStatus.textContent = photoReadingPaused ? 'Leitura da fotografia pausada.' : 'Leitura da fotografia retomada.';
+  });
+  photoSpeechStop.addEventListener('click', () => { stopPhotoReading(); photoSpeech.focus(); });
+  dialog.addEventListener('close', () => { stopPhotoReading(); audio.pause(); });
+  if (!canSpeak) {
+    photoSpeech.disabled = true;
+    document.getElementById('photo-speech-note').textContent = 'A leitura em voz não está disponível neste navegador. A descrição visual e a leitura do projeto estão em texto, disponíveis ao leitor de tela.';
+    document.querySelectorAll('.narration-trigger').forEach(button => { button.disabled = true; button.setAttribute('aria-describedby','speech-support'); });
+    document.getElementById('speech-support').textContent = 'A leitura automática não está disponível neste navegador. Acesse o poema integral e o percurso em texto.';
+  }
+  photoReadingUI();
+  readingUI();
   if (synth && 'onvoiceschanged' in synth) synth.onvoiceschanged = () => synth.getVoices();
-  window.addEventListener('pagehide', () => { if (synth) synth.cancel(); audio.pause(); });
+  window.addEventListener('pagehide', () => { stopPhotoReading(); stopReading(); });
 })();

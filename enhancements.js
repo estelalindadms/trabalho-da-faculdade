@@ -12,6 +12,10 @@
   if (![1,1.15,1.3].includes(Number(prefs.size))) prefs.size = 1;
 
   const alive = document.querySelector('.movement[data-alive="true"]');
+  let aliveRevealed = false;
+  let aliveButton = null;
+  let aliveHelp = null;
+  let aliveStatus = null;
   if (alive) {
     alive.id = 'recife-vivo';
     alive.tabIndex = -1;
@@ -19,7 +23,39 @@
     const bridge = document.createElement('div');
     bridge.className = 'alive-bridge';
     bridge.innerHTML = '<img class="alive-bridge-art" src="assets/linha-matriz.svg" alt="" aria-hidden="true"><div class="alive-bridge-content"><div><p class="eyebrow">DA FERIDA AO PULSO</p><h2>O Recife resiste<br><em>em quem fica.</em></h2></div><div class="alive-bridge-copy"><p>O Recife continua nas mãos que trabalham, nas conversas de calçada e nos livros, discos e filmes que passam de uma pessoa a outra. A arte ocupa paredes e prateleiras; o encontro transforma a rua em lugar de convivência. Entre o concreto e a água, esses gestos mantêm a cidade em movimento.</p><p>Há vida junto às feridas que este percurso mostrou. Reconhecê-la também é defender o direito de morar, trabalhar, criar e permanecer no centro. As cores acompanham quem sustenta esse cotidiano: gente que merece condições para viver a cidade, além de resistir às suas dificuldades.</p></div></div>';
+    const controls = document.createElement('div');
+    controls.className = 'alive-controls';
+    controls.innerHTML = '<button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo" aria-describedby="alive-help"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><p id="alive-help" class="alive-help">As fotografias começam com um filtro em preto e branco. Ative o botão para revelar suas cores originais.</p><p id="alive-status" class="alive-status" role="status" aria-live="polite" aria-atomic="true"></p>';
+    bridge.querySelector('.alive-bridge-copy').append(controls);
     alive.prepend(bridge);
+    aliveButton = controls.querySelector('#alive-reveal');
+    aliveHelp = controls.querySelector('#alive-help');
+    aliveStatus = controls.querySelector('#alive-status');
+    aliveButton.addEventListener('click', () => {
+      if (prefs.colors) return;
+      aliveRevealed = !aliveRevealed;
+      renderAlive(true);
+    });
+  }
+  function renderAlive(announce = false) {
+    if (!alive || !aliveButton) return;
+    const originalColors = !!prefs.colors;
+    const revealed = aliveRevealed || originalColors;
+    alive.classList.toggle('alive-revealed', revealed);
+    aliveButton.disabled = originalColors;
+    aliveButton.setAttribute('aria-pressed', String(revealed));
+    aliveButton.querySelector('span').textContent = originalColors ? 'Cores originais ativadas' : revealed ? 'Rever em preto e branco' : 'Devolver a cor';
+    aliveHelp.textContent = originalColors
+      ? 'A preferência “Cores originais” mantém as fotografias coloridas. Desative essa opção em Acessibilidade para usar este botão.'
+      : revealed
+        ? 'As fotografias exibem suas cores originais. O botão permite rever o tratamento em preto e branco.'
+        : 'As fotografias começam com um filtro em preto e branco. Ative o botão para revelar suas cores originais.';
+    if (announce) {
+      const total = alive.querySelectorAll('.photo-card').length;
+      aliveStatus.textContent = revealed
+        ? 'Recife Vivo ganhou cor. As ' + total + ' fotografias exibem agora suas cores originais.'
+        : 'Recife Vivo voltou ao tratamento em preto e branco. As fotografias originais continuam coloridas.';
+    }
   }
   function applyPreferences(announce = false) {
     root.style.setProperty('--reading-scale', String(prefs.size));
@@ -32,6 +68,7 @@
     root.style.scrollBehavior = prefs.motion ? 'auto' : '';
     document.querySelectorAll('[data-text-size]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.textSize) === Number(prefs.size))));
     try { localStorage.setItem(storageKey, JSON.stringify(prefs)); } catch {}
+    renderAlive();
     if (announce) status.textContent = 'Preferências aplicadas.';
   }
   applyPreferences();
@@ -53,15 +90,20 @@
   let photoTrigger = null;
   const photoDialog = document.getElementById('photo-dialog');
   document.querySelectorAll('.photo-open').forEach((button,index) => {
-    const description = button.closest('.photo-card').querySelector('.photo-caption p');
+    const card = button.closest('.photo-card');
+    const description = card.querySelector('.photo-caption p');
+    const describedBy = [];
     if (description) {
       description.id = 'photo-caption-' + index;
-      button.setAttribute('aria-describedby', description.id);
+      describedBy.push(description.id);
     }
+    const visualDescription = card.id && document.getElementById(card.id + '-visual-description');
+    if (visualDescription) describedBy.push(visualDescription.id);
+    if (describedBy.length) button.setAttribute('aria-describedby', describedBy.join(' '));
     button.addEventListener('click', () => {
       photoTrigger = button;
       body.classList.add('dialog-open');
-      document.getElementById('photo-close').focus();
+      document.getElementById('lightbox-title').focus({preventScroll:true});
       decorateExternalLinks(photoDialog);
     });
   });
@@ -112,10 +154,18 @@
       link.textContent = 'Assistir à versão com audiodescrição';
       target.append(link); target.hidden = false;
     }
+    if (film.signLanguageSrc) {
+      const link = document.createElement('a');
+      link.href = film.signLanguageSrc;
+      link.className = 'download-link';
+      link.textContent = 'Assistir à versão com interpretação em Libras';
+      target.append(link); target.hidden = false;
+    }
     const available = [];
     if (film.captionsSrc) available.push('legendas em português');
     if (film.transcript) available.push('transcrição');
     if (film.audioDescriptionSrc) available.push('versão com audiodescrição');
+    if (film.signLanguageSrc) available.push('interpretação em Libras');
     document.querySelector('.film-access-note').textContent = available.length ? 'Recursos disponíveis: ' + available.join(', ') + '.' : 'Curta disponível. Os recursos de acesso serão indicados quando seus arquivos forem adicionados.';
     document.querySelector('.production-label').textContent = 'CURTA DA EQUIPE';
     video.addEventListener('play', () => {
