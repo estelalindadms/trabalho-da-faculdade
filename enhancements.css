@@ -382,14 +382,39 @@ body.cordel-lock{overflow:hidden}
 .cordel-heading>.poem-reference-link{display:block;width:fit-content;min-height:44px;padding:9px 0;margin:12px 0 16px;font-size:calc(.9rem * var(--reading-scale));line-height:1.8;text-decoration:underline;text-underline-offset:4px}
 .photo-caption p,.movement-header p,.reference-list article p{overflow-wrap:break-word}
 
+.site-header nav a[href="#recife-esquecido"],
+.essay-chapters a[href="#recife-esquecido"] {
+  color: var(--red);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: .3em;
+}
+.essay-chapters a[href="#recife-esquecido"] { border-bottom-color: transparent; }
+
 #recife-esquecido .movement-header {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  align-items: start;
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--line);
+  align-items: center;
+  gap: clamp(16px, 4vw, 56px);
+  padding: clamp(20px, 4vw, 54px);
+  margin-bottom: clamp(28px, 5vw, 64px);
+  background: #e5ddc9;
+  border-block: 3px double var(--ink);
+  border-inline-start: 5px solid var(--red);
 }
-#recife-esquecido .movement-header p { max-width: 48ch; }
+#recife-esquecido .movement-header h2 {
+  font-size: calc(clamp(1.9rem, 5vw, 4.1rem) * var(--reading-scale));
+  overflow-wrap: anywhere;
+}
+#recife-esquecido .movement-header p {
+  max-width: 48ch;
+  justify-self: start;
+  color: var(--ink);
+}
+.high-contrast #recife-esquecido .movement-header { background: var(--paper); }
 @media (max-width: 760px) {
   #recife-esquecido .movement-header { grid-template-columns: minmax(0, 1fr); }
   #recife-esquecido .movement-header p { grid-column: 1; }
+}
+@media print {
+  #recife-esquecido .movement-header { background: #fff; }
 }
