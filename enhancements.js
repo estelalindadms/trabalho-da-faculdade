@@ -12,31 +12,14 @@
   if (![1,1.15,1.3].includes(Number(prefs.size))) prefs.size = 1;
 
   const alive = document.querySelector('.movement[data-alive="true"]');
-  let aliveRevealed = false;
-  let aliveButton = null;
-  let aliveStatus = null;
   if (alive) {
     alive.id = 'recife-vivo';
     alive.tabIndex = -1;
     alive.classList.add('movement-alive');
     const bridge = document.createElement('div');
     bridge.className = 'alive-bridge';
-    bridge.innerHTML = '<img class="alive-bridge-art" src="assets/linha-matriz.svg" alt="" aria-hidden="true"><div class="alive-bridge-content"><div><p class="eyebrow">DA FERIDA AO PULSO</p><h2>O Recife resiste<br><em>em quem fica.</em></h2></div><div class="alive-bridge-copy"><p>O trabalho abre caminhos, a arte mantém a voz e os encontros ocupam a rua. Mesmo diante do desgaste, há quem permaneça e faça a cidade continuar.</p><button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><p id="alive-status" class="alive-status" role="status" aria-live="polite">O trabalho, a criação, o mangue e os encontros percorrem este Recife que resiste.</p></div></div>';
+    bridge.innerHTML = '<img class="alive-bridge-art" src="assets/linha-matriz.svg" alt="" aria-hidden="true"><div class="alive-bridge-content"><div><p class="eyebrow">DA FERIDA AO PULSO</p><h2>O Recife resiste<br><em>em quem fica.</em></h2></div><div class="alive-bridge-copy"><p>O Recife continua nas mãos que trabalham, nas conversas de calçada e nos livros, discos e filmes que passam de uma pessoa a outra. A arte ocupa paredes e prateleiras; o encontro transforma a rua em lugar de convivência. Entre o concreto e a água, esses gestos mantêm a cidade em movimento.</p><p>Há vida junto às feridas que este percurso mostrou. Reconhecê-la também é defender o direito de morar, trabalhar, criar e permanecer no centro. As cores acompanham quem sustenta esse cotidiano: gente que merece condições para viver a cidade, além de resistir às suas dificuldades.</p></div></div>';
     alive.prepend(bridge);
-    aliveButton = document.getElementById('alive-reveal');
-    aliveStatus = document.getElementById('alive-status');
-    aliveButton.addEventListener('click', () => {
-      aliveRevealed = !aliveRevealed;
-      renderAlive(true);
-    });
-  }
-  function renderAlive(announce) {
-    if (!alive || !aliveButton) return;
-    alive.classList.toggle('alive-revealed', aliveRevealed || !!prefs.colors);
-    aliveButton.disabled = !!prefs.colors;
-    aliveButton.setAttribute('aria-pressed', String(aliveRevealed || !!prefs.colors));
-    aliveButton.querySelector('span').textContent = prefs.colors ? 'Cores originais ativadas' : aliveRevealed ? 'Rever em preto e branco' : 'Devolver a cor';
-    if (announce) aliveStatus.textContent = aliveRevealed || prefs.colors ? 'As ' + alive.querySelectorAll('.photo-card').length + ' fotografias agora mostram o tratamento original, em cor ou preto e branco.' : 'O movimento voltou ao tratamento monocromático.';
   }
   function applyPreferences(announce = false) {
     root.style.setProperty('--reading-scale', String(prefs.size));
@@ -49,7 +32,6 @@
     root.style.scrollBehavior = prefs.motion ? 'auto' : '';
     document.querySelectorAll('[data-text-size]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.textSize) === Number(prefs.size))));
     try { localStorage.setItem(storageKey, JSON.stringify(prefs)); } catch {}
-    renderAlive(false);
     if (announce) status.textContent = 'Preferências aplicadas.';
   }
   applyPreferences();

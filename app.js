@@ -10,7 +10,7 @@
   const pad = n => String(n).padStart(2, '0');
   const escape = text => String(text || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const dateLabel = p => p.date ? String(p.date).slice(0, 10).split('-').reverse().join('/') : 'data a confirmar';
-  const locationLabel = photo => (photo.locationConfidence ? photo.locationConfidence + ' · ' : '') + photo.location;
+  const locationLabel = photo => photo.location || '';
   const movementId = index => index === movements.length - 1 ? 'recife-vivo' : 'capitulo-' + index;
   function photoCredit(photo) {
     const source = photo.sourceUrl ? '<a href="' + escape(photo.sourceUrl) + '" target="_blank" rel="noopener">Fonte original ↗</a>' : escape(photo.originalFile || 'Acervo autoral');
@@ -58,7 +58,7 @@
     }
     const timeline = memory.timeline.map(entry => '<li><span>' + escape(entry.date) + '</span><div><h4>' + escape(entry.title) + '</h4><p>' + escape(entry.text) + '</p>' + entry.sources.map(externalLink).join('') + '</div></li>').join('');
     return '<section class="cinema-memory" id="cinema-na-calcada" tabindex="-1" aria-labelledby="cinema-memory-title">' +
-      '<header class="cinema-memory-heading"><p class="eyebrow">RECIFE VIVO · CADERNO DE MEMÓRIA</p><h3 id="cinema-memory-title">A sessão continua<br><em>na calçada.</em></h3><p>' + escape(memory.intro) + '</p></header>' +
+      '<header class="cinema-memory-heading"><p class="eyebrow">CINEMA E MEMÓRIA · RECIFE</p><h3 id="cinema-memory-title">A sessão continua<br><em>na calçada.</em></h3><p>' + escape(memory.intro) + '</p></header>' +
       comparisonHtml +
       '<div class="cinema-diptych"><article class="cinema-era"><span>01 / A SALA</span><h4>Uma cidade diante da tela</h4><p>' + escape(memory.past) + '</p>' + externalLink(memory.pastSource) + '</article>' +
       '<article class="cinema-era"><span>02 / A RUA</span><h4>O filme encontra outros caminhos</h4><p>' + escape(memory.present) + '</p><a href="' + currentLink + '">Ver os filmes nas fotografias <span aria-hidden="true">↓</span></a></article></div>' +
