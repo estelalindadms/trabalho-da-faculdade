@@ -7,11 +7,12 @@
   }
   const photos = data.photos;
   const movements = data.movements;
+  const poemMovements = movements.filter(movement => movement.stanza?.length);
   const pad = n => String(n).padStart(2, '0');
   const escape = text => String(text || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const dateLabel = p => p.date ? String(p.date).slice(0, 10).split('-').reverse().join('/') : 'data a confirmar';
   const locationLabel = photo => photo.location || '';
-  const movementId = index => index === movements.length - 1 ? 'recife-vivo' : 'capitulo-' + index;
+  const movementId = (movement, index) => movement.id || (index === movements.length - 1 ? 'recife-vivo' : 'capitulo-' + index);
   function photoCredit(photo) {
     const source = photo.sourceUrl ? '<a href="' + escape(photo.sourceUrl) + '" target="_blank" rel="noopener">Fonte original ↗</a>' : escape(photo.originalFile || 'Acervo autoral');
     const rights = photo.licenseUrl ? '<a href="' + escape(photo.licenseUrl) + '" target="_blank" rel="noopener">' + escape(photo.license) + '</a>' : escape(photo.license);
@@ -19,7 +20,12 @@
     return escape(photo.author) + ' · ' + escape(dateLabel(photo)) + '<br>' + escape(locationLabel(photo)) + locationSource + '<br>' + source + ' · ' + rights;
   }
   const chapterNav = document.getElementById('essay-chapters');
-  if (chapterNav) chapterNav.innerHTML = movements.map((movement, index) => '<a href="#' + movementId(index) + '">' + escape(movement.number) + ' · ' + escape(movement.title) + '</a>').join('');
+  if (chapterNav) {
+    chapterNav.innerHTML = movements.map((movement, index) => {
+      const label = movement.number ? movement.number + ' · ' + movement.title : movement.title;
+      return '<a href="#' + escape(movementId(movement, index)) + '">' + escape(label) + '</a>';
+    }).join('');
+  }
   function renderPhoto(photo, index, figureId) {
     const contextLink = photo.contextLink
       ? '<a class="photo-study-link" href="' + escape(photo.contextLink) + '">' + escape(photo.contextLabel) + ' <span aria-hidden="true">↗</span></a>'
@@ -82,11 +88,15 @@
         : renderPhoto(photo, index, 'foto-' + pad(index + 1));
       return partHeading + photoContent;
     }).join('');
+    const closingLink = movement.alive
+      ? '<a href="#barreiras-acesso">O direito de permanecer no Recife <span aria-hidden="true">↗</span></a>'
+      : '<a href="#recife-vivo">Continuar para o Recife Vivo <span aria-hidden="true">↓</span></a>';
     const closing = movement.closing
-      ? '<div class="alive-ending"><p>' + escape(movement.closing) + '</p><a href="#barreiras-acesso">O direito de permanecer no Recife <span aria-hidden="true">↗</span></a></div>'
+      ? '<div class="alive-ending"><p>' + escape(movement.closing) + '</p>' + closingLink + '</div>'
       : '';
-    return '<section class="movement" id="' + movementId(groupIndex) + '" data-alive="' + (movement.alive || groupIndex === movements.length - 1) + '" aria-labelledby="movement-' + groupIndex + '">' +
-      '<div class="movement-header"><span class="movement-number">' + escape(movement.number) + '</span><h2 id="movement-' + groupIndex + '">' + escape(movement.title) + '</h2><p>' + escape(movement.intro) + '</p></div>' +
+    const number = movement.number ? '<span class="movement-number">' + escape(movement.number) + '</span>' : '';
+    return '<section class="movement" id="' + escape(movementId(movement, groupIndex)) + '" data-alive="' + (movement.alive || groupIndex === movements.length - 1) + '" aria-labelledby="movement-' + groupIndex + '">' +
+      '<div class="movement-header">' + number + '<h2 id="movement-' + groupIndex + '">' + escape(movement.title) + '</h2><p>' + escape(movement.intro) + '</p></div>' +
       '<div class="photo-grid">' + cards + '</div>' + closing + '</section>';
   }).join('');
   const urbanGallery = document.getElementById('urban-photo-gallery');
@@ -98,7 +108,7 @@
       return renderPhoto(photo, photoIndex, 'leitura-urbana-' + (index + 1));
     }).join('');
   }
-  document.getElementById('poem').innerHTML = movements.map(movement => '<article class="poem-part"><span>' + escape(movement.number) + ' / ' + escape(movement.title) + '</span><div class="stanza">' + movement.stanza.map(line => '<p>' + escape(line) + '</p>').join('') + '</div></article>').join('');
+  document.getElementById('poem').innerHTML = poemMovements.map(movement => '<article class="poem-part"><span>' + escape(movement.number) + ' / ' + escape(movement.title) + '</span><div class="stanza">' + movement.stanza.map(line => '<p>' + escape(line) + '</p>').join('') + '</div></article>').join('');
   document.getElementById('credits-list').innerHTML = photos.map(photo => '<li><strong>' + escape(photo.title) + '</strong><br>' + photoCredit(photo) + '<small>' + escape(photo.modifications) + '</small></li>').join('');
   const dialog = document.getElementById('photo-dialog');
   let currentPhoto = 0;
@@ -206,7 +216,7 @@
     else audio.pause();
     if (request !== readingRequest || !reading) { if (!reading) audio.pause(); return; }
     synth.cancel();
-    const text = movements.map(movement => movement.stanza.join('. ')).join('. ');
+    const text = poemMovements.map(movement => movement.stanza.join('. ')).join('. ');
     utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'pt-BR';
     utterance.rate = 0.83;

@@ -12,7 +12,7 @@ Um ensaio fotográfico e poético em 47 fotografias autorais, com linguagem grá
 
 O ensaio reúne 47 fotografias autorais: 27 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 16 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
 
-Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 28 fotografias: 27 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também originalmente em preto e branco, permanece no capítulo sobre permanência. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
+Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 28 fotografias: 27 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também em preto e branco, integra o interlúdio Recife Esquecido. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
 
 ## Música e leitura
 
@@ -61,7 +61,7 @@ As quatro fotos de capa são definidas em coverPhotos, em data.js: DSC05656, DSC
 
 Três imagens do primeiro percurso, de 5 de novembro de 2026, acompanham os estudos existentes. urbanReadings, em data.js, define as legendas e as referências internas. A ampliação usa os mesmos controles da galeria e conserva a autoria, a data e a localização pesquisada.
 
-A feira DSC05655, a travessia DSC05746, as raízes DSC05776 e o píer DSC05779 compõem o Recife Vivo. O movimento sobre permanência reúne seis fotografias: DSC05689, DSC05813, DSC05808 e DSC05662, do primeiro conjunto, e DSC05867 e DSC05917, do percurso de 11 de novembro. Os sebos DSC05670, DSC05691 e DSC05752 aparecem no Recife Vivo. A fachada monocromática DSC05748 entra entre os livros e os DVDs, junto à comparação histórica, aproximando a memória do cinema da sobrevivência da arte nas bancas.
+A feira DSC05655, a travessia DSC05746, as raízes DSC05776 e o píer DSC05779 compõem o Recife Vivo. O movimento sobre permanência reúne quatro fotografias: DSC05689, DSC05813 e DSC05808, do primeiro conjunto, e DSC05867, do percurso de 11 de novembro. As fotos DSC05914, DSC05917 e DSC05662 integram o Recife Esquecido, logo antes do Recife Vivo. Os sebos DSC05670, DSC05691 e DSC05752 aparecem no Recife Vivo. A fachada monocromática DSC05748 entra entre os livros e os DVDs, junto à comparação histórica, aproximando a memória do cinema da sobrevivência da arte nas bancas.
 
 ## A sessão continua na calçada
 
@@ -73,7 +73,7 @@ A fotografia de arquivo está em `assets/acervo/trianon-1961-mario-de-carvalho.j
 
 ## Seleção e percurso visual
 
-A seleção reúne 47 fotografias entre 102 arquivos do projeto. Os cinco movimentos têm 9, 6, 2, 2 e 28 imagens. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
+A seleção reúne 47 fotografias entre 102 arquivos do projeto. Os cinco movimentos têm 8, 4, 2, 2 e 28 imagens. Entre o quarto e o quinto, o interlúdio Recife Esquecido reúne três fotografias. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
 
 As fotografias semelhantes foram comparadas pelo enquadramento, pelo gesto e pela função na narrativa. A galeria preserva DSC05914 para a passagem sob a marquise, DSC05867 para a frente do rio, DSC05879 para a banca de frutas e DSC05923 para a convivência entre edifícios. DSC05915, DSC05872, DSC05880, DSC05883, DSC05926 e DSC05754 ficam em reserva.
 

@@ -141,25 +141,6 @@ window.RECIFE_DATA = {
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
-      "originalFile": "DSC05914.jpg",
-      "width": 1256,
-      "height": 1600,
-      "src": "assets/autorais/DSC05914.jpg",
-      "author": "Samico",
-      "date": "2026-11-11",
-      "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
-      "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
-      "title": "Passos sob o concreto",
-      "caption": "Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.",
-      "alt": "Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.",
-      "location": "Centro do Recife",
-      "locationConfidence": "Provável",
-      "locationSourceUrl": "https://www.locaisdobrasil.com.br/encontre/lanches/recife-pe/acai-da-duda/632b13e5a00b5f5ee7b3784e",
-      "placeReading": "A marquise oferece um trecho coberto ao longo da calçada. A cena permite observar como a largura da passagem e a proteção contra o sol e a chuva influenciam os trajetos a pé pelo Centro.",
-      "featured": true
-    },
-    {
       "originalFile": "DSC05867.jpg",
       "width": 1600,
       "height": 1200,
@@ -236,46 +217,6 @@ window.RECIFE_DATA = {
       "contextLabel": "Ler sobre valorização e acesso à cidade"
     },
     {
-      "originalFile": "DSC05917.jpg",
-      "width": 1200,
-      "height": 1600,
-      "src": "assets/autorais/DSC05917.jpg",
-      "author": "Samico",
-      "date": "2026-11-11",
-      "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
-      "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
-      "title": "Um lugar para descansar",
-      "caption": "Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?",
-      "alt": "Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.",
-      "location": "Centro do Recife",
-      "locationConfidence": "A confirmar",
-      "locationSourceUrl": "",
-      "placeReading": "Bancos, sombra e espaços de permanência ajudam a fazer do Centro um lugar onde é possível caminhar e também descansar. A fotografia convida a observar onde essas condições estão disponíveis ao longo do percurso.",
-      "contextLink": "#barreiras-acesso",
-      "contextLabel": "O direito de estar, circular e permanecer"
-    },
-    {
-      "src": "assets/autorais/DSC05662.jpg",
-      "originalFile": "DSC05662.jpg",
-      "title": "Um carrinho pelo Centro",
-      "caption": "Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia encerra o capítulo com uma cena de circulação cotidiana e convida a pensar em como a cidade recebe esses trajetos.",
-      "alt": "Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.",
-      "location": "Centro do Recife",
-      "locationConfidence": "Provável",
-      "locationSourceUrl": "",
-      "date": "2026-11-05",
-      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
-      "author": "frança",
-      "license": "Direitos da pessoa autora",
-      "width": 1200,
-      "height": 1600,
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
-      "contextLink": "#barreiras-acesso",
-      "contextLabel": "Ler sobre acesso e permanência na cidade",
-      "featured": true
-    },
-    {
       "title": "Nomes contra o silêncio",
       "caption": "Os nomes e retratos inscritos no caminho tornam a memória uma presença pública. Quem passa encontra histórias que precisam continuar sendo contadas. A cidade resiste também quando oferece espaço à lembrança e reconhece que a dignidade de suas pessoas integra o seu patrimônio.",
       "alt": "Placas com fotografias e nomes, entre eles Dom Helder Câmara, Soledad Barrett e Ivan Rocha Aguiar, dispostas sobre a terra.",
@@ -342,6 +283,64 @@ window.RECIFE_DATA = {
       "author": "frança",
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
+    },
+    {
+      "originalFile": "DSC05914.jpg",
+      "width": 1256,
+      "height": 1600,
+      "src": "assets/autorais/DSC05914.jpg",
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
+      "title": "Passos sob o concreto",
+      "caption": "Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.",
+      "alt": "Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.",
+      "location": "Centro do Recife",
+      "locationConfidence": "Provável",
+      "locationSourceUrl": "https://www.locaisdobrasil.com.br/encontre/lanches/recife-pe/acai-da-duda/632b13e5a00b5f5ee7b3784e",
+      "placeReading": "A marquise oferece um trecho coberto ao longo da calçada. A cena permite observar como a largura da passagem e a proteção contra o sol e a chuva influenciam os trajetos a pé pelo Centro."
+    },
+    {
+      "originalFile": "DSC05917.jpg",
+      "width": 1200,
+      "height": 1600,
+      "src": "assets/autorais/DSC05917.jpg",
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação confirmada pela pessoa usuária: 11 de novembro de 2026.",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
+      "title": "Um lugar para descansar",
+      "caption": "Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?",
+      "alt": "Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.",
+      "location": "Centro do Recife",
+      "locationConfidence": "A confirmar",
+      "locationSourceUrl": "",
+      "placeReading": "Bancos, sombra e espaços de permanência ajudam a fazer do Centro um lugar onde é possível caminhar e também descansar. A fotografia convida a observar onde essas condições estão disponíveis ao longo do percurso.",
+      "contextLink": "#barreiras-acesso",
+      "contextLabel": "O direito de estar, circular e permanecer"
+    },
+    {
+      "src": "assets/autorais/DSC05662.jpg",
+      "originalFile": "DSC05662.jpg",
+      "title": "Um carrinho pelo Centro",
+      "caption": "Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia convida a pensar em como a cidade recebe esses trajetos cotidianos.",
+      "alt": "Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.",
+      "location": "Centro do Recife",
+      "locationConfidence": "Provável",
+      "locationSourceUrl": "",
+      "date": "2026-11-05",
+      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
+      "author": "frança",
+      "license": "Direitos da pessoa autora",
+      "width": 1200,
+      "height": 1600,
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
+      "contextLink": "#barreiras-acesso",
+      "contextLabel": "Ler sobre acesso e permanência na cidade",
+      "featured": true
     },
     {
       "src": "assets/autorais/DSC05674.jpg",
@@ -849,7 +848,7 @@ window.RECIFE_DATA = {
     {
       "number": "I",
       "title": "A pele da rua",
-      "intro": "O percurso começa nas frestas e se aproxima das superfícies: reboco, janelas, tapumes e chão. As marcas do desgaste pedem cuidado com o patrimônio e com a passagem de quem usa o Centro. O Recife sujo é lido aqui a partir dessas condições urbanas; as pessoas que atravessam a cena são parte da vida que precisa ser acolhida.",
+      "intro": "O percurso começa nas frestas e se aproxima das superfícies: reboco, janelas, tapumes e chão. As marcas do desgaste pedem cuidado com o patrimônio e com as calçadas de quem usa o Centro. O capítulo acompanha as condições de conservação e limpeza do espaço urbano.",
       "stanza": [
         "Na parede, a tinta cede,",
         "O reboco encontra o chão.",
@@ -858,7 +857,7 @@ window.RECIFE_DATA = {
         "Toda rua pede amparo",
         "Muito além da compaixão."
       ],
-      "photoCount": 9,
+      "photoCount": 8,
       "partLabel": "RECIFE SUJO",
       "sections": {
         "0": {
@@ -870,18 +869,13 @@ window.RECIFE_DATA = {
           "number": "02",
           "title": "O que pede cuidado",
           "intro": "Escultura, vidros, revestimento e chão aproximam o olhar das necessidades de manutenção."
-        },
-        "8": {
-          "number": "03",
-          "title": "A rua em uso",
-          "intro": "Calçadas e passagens cobertas fazem parte da rotina de quem circula, trabalha e descansa no Centro. O estado desses espaços afeta a vida de quem os utiliza. Que condições o Recife oferece para caminhar, parar e permanecer?"
         }
       }
     },
     {
       "number": "II",
       "title": "Quem pode permanecer?",
-      "intro": "Da frente do rio aos anúncios nas paredes e ao trabalho no beco, a pergunta passa dos edifícios para as condições de viver na cidade. Investir, conservar e valorizar também envolve acesso à moradia, ao comércio e aos espaços de convivência. As fotografias abrem essa leitura; os estudos sobre o Recife ajudam a discutir quem consegue permanecer.",
+      "intro": "Da frente do rio aos anúncios nas paredes, o ensaio pergunta quem consegue continuar morando, trabalhando e convivendo no Centro. As fotografias colocam usos diferentes lado a lado. Os estudos sobre o Recife ajudam a discutir a relação entre valorização, acesso e permanência.",
       "stanza": [
         "O aluguel fecha portas",
         "Pra quem vive de vender.",
@@ -890,7 +884,7 @@ window.RECIFE_DATA = {
         "No lugar de sua história,",
         "Sem sumir para caber."
       ],
-      "photoCount": 6
+      "photoCount": 4
     },
     {
       "number": "III",
@@ -919,6 +913,13 @@ window.RECIFE_DATA = {
         "Cada encontro, uma canção."
       ],
       "photoCount": 2
+    },
+    {
+      "id": "recife-esquecido",
+      "title": "Recife Esquecido",
+      "intro": "Três cenas do Centro abrem uma pergunta sobre o direito à cidade. Há quem caminhe sob uma marquise, quem se sente junto a uma vitrine e quem conduza um carrinho pelo beco. O título chama atenção para o que o espaço público oferece a quem o utiliza. Calçadas que permitam circular, sombra e lugares para sentar e descansar fazem parte desse direito.",
+      "photoCount": 3,
+      "closing": "A vida que o próximo capítulo acompanha já está aqui, nos trajetos e nas pausas de quem usa o Centro."
     },
     {
       "number": "V",

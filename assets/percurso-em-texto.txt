@@ -10,7 +10,7 @@ Descrições visuais objetivas e leitura poética do projeto aparecem separadame
 
 I · A pele da rua
 
-O percurso começa nas frestas e se aproxima das superfícies: reboco, janelas, tapumes e chão. As marcas do desgaste pedem cuidado com o patrimônio e com a passagem de quem usa o Centro. O Recife sujo é lido aqui a partir dessas condições urbanas; as pessoas que atravessam a cena são parte da vida que precisa ser acolhida.
+O percurso começa nas frestas e se aproxima das superfícies: reboco, janelas, tapumes e chão. As marcas do desgaste pedem cuidado com o patrimônio e com as calçadas de quem usa o Centro. O capítulo acompanha as condições de conservação e limpeza do espaço urbano.
 
 
 
@@ -94,27 +94,13 @@ Samico · 05/11/2026 · Centro do Recife
 
 
 
-A rua em uso
-
-Calçadas e passagens cobertas fazem parte da rotina de quem circula, trabalha e descansa no Centro. O estado desses espaços afeta a vida de quem os utiliza. Que condições o Recife oferece para caminhar, parar e permanecer?
-
-09 · Passos sob o concreto
-
-Descrição visual: Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.
-
-Leitura do projeto: Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.
-
-Samico · 11/11/2026 · Centro do Recife
-
-
-
 II · Quem pode permanecer?
 
-Da frente do rio aos anúncios nas paredes e ao trabalho no beco, a pergunta passa dos edifícios para as condições de viver na cidade. Investir, conservar e valorizar também envolve acesso à moradia, ao comércio e aos espaços de convivência. As fotografias abrem essa leitura; os estudos sobre o Recife ajudam a discutir quem consegue permanecer.
+Da frente do rio aos anúncios nas paredes, o ensaio pergunta quem consegue continuar morando, trabalhando e convivendo no Centro. As fotografias colocam usos diferentes lado a lado. Os estudos sobre o Recife ajudam a discutir a relação entre valorização, acesso e permanência.
 
 
 
-10 · A margem dos contrastes
+09 · A margem dos contrastes
 
 Descrição visual: Vista do Capibaribe com uma sequência de edifícios altos na outra margem, alguns com inscrições e fachadas desgastadas, sob céu azul com nuvens.
 
@@ -124,7 +110,7 @@ Samico · 11/11/2026 · Rua do Sol, Santo Antônio · vista através do Capibari
 
 
 
-11 · As linhas que nos cercam
+10 · As linhas que nos cercam
 
 Descrição visual: Edifícios de alturas diferentes vistos de baixo, com árvores em primeiro plano e fios atravessando o céu.
 
@@ -134,7 +120,7 @@ frança · 05/11/2026 · Centro do Recife
 
 
 
-12 · Um endereço para ficar
+11 · Um endereço para ficar
 
 Descrição visual: Floricultura em edifício revestido de pastilhas ao lado de um sobrado com reboco deteriorado, inscrições e fiação.
 
@@ -144,31 +130,11 @@ frança · 05/11/2026 · Centro do Recife
 
 
 
-13 · A cidade em parcelas
+12 · A cidade em parcelas
 
 Descrição visual: Coluna coberta de cartazes sobre trabalho, estudantes e empréstimos, junto a uma abertura escura.
 
 Leitura do projeto: Ofertas de crédito e reivindicações por trabalho e educação disputam espaço na coluna. A parede reúne promessas de acesso e necessidades cotidianas. No percurso do ensaio, essa convivência leva à pergunta sobre o custo de morar, trabalhar e frequentar uma cidade que se valoriza.
-
-frança · 05/11/2026 · Centro do Recife
-
-
-
-14 · Um lugar para descansar
-
-Descrição visual: Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.
-
-Leitura do projeto: Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?
-
-Samico · 11/11/2026 · Centro do Recife
-
-
-
-15 · Um carrinho pelo Centro
-
-Descrição visual: Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.
-
-Leitura do projeto: Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia encerra o capítulo com uma cena de circulação cotidiana e convida a pensar em como a cidade recebe esses trajetos.
 
 frança · 05/11/2026 · Centro do Recife
 
@@ -180,7 +146,7 @@ Os nomes da Calçada da Memória e o Monumento Tortura Nunca Mais inscrevem hist
 
 
 
-16 · Nomes contra o silêncio
+13 · Nomes contra o silêncio
 
 Descrição visual: Placas com fotografias e nomes, entre eles Dom Helder Câmara, Soledad Barrett e Ivan Rocha Aguiar, dispostas sobre a terra.
 
@@ -190,7 +156,7 @@ frança · 05/11/2026 · Calçada da Memória, junto ao Monumento Tortura Nunca 
 
 
 
-17 · O peso da ausência
+14 · O peso da ausência
 
 Descrição visual: Escultura de figura humana suspensa dentro de uma grande estrutura retangular de concreto, com árvores ao fundo.
 
@@ -206,7 +172,7 @@ O trabalho no letreiro do São Luiz encontra o cordel no acervo do CENA. A arte 
 
 
 
-18 · O amanhã, letra por letra
+15 · O amanhã, letra por letra
 
 Descrição visual: Pessoa sobre uma escada encaixa letras vermelhas em um letreiro que anuncia Vicentina pede desculpas.
 
@@ -216,13 +182,53 @@ Samico · 05/11/2026 · Cinema São Luiz, Rua da Aurora, 175, Boa Vista.
 
 
 
-19 · Versos sob a luz
+16 · Versos sob a luz
 
 Descrição visual: Folhetos de cordel em vitrine iluminada, abaixo de painéis expositivos sobre cordel e a gravadora Rozenblit.
 
 Leitura do projeto: Cordéis e materiais do acervo se encontram no CENA, dentro do Cinema São Luiz. A palavra impressa aproxima sua memória da imagem em movimento. Esse encontro de linguagens inspira o próprio projeto: um folheto digital em que fotografia, verso e som constroem juntos uma forma de percorrer o Recife.
 
 frança · 05/11/2026 · Centro de Referência do Audiovisual Pernambucano, segundo pavimento do Cinema São Luiz.
+
+
+
+Recife Esquecido
+
+Três cenas do Centro abrem uma pergunta sobre o direito à cidade. Há quem caminhe sob uma marquise, quem se sente junto a uma vitrine e quem conduza um carrinho pelo beco. O título chama atenção para o que o espaço público oferece a quem o utiliza. Calçadas que permitam circular, sombra e lugares para sentar e descansar fazem parte desse direito.
+
+
+
+17 · Passos sob o concreto
+
+Descrição visual: Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.
+
+Leitura do projeto: Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.
+
+Samico · 11/11/2026 · Centro do Recife
+
+
+
+18 · Um lugar para descansar
+
+Descrição visual: Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.
+
+Leitura do projeto: Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?
+
+Samico · 11/11/2026 · Centro do Recife
+
+
+
+19 · Um carrinho pelo Centro
+
+Descrição visual: Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.
+
+Leitura do projeto: Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia convida a pensar em como a cidade recebe esses trajetos cotidianos.
+
+frança · 05/11/2026 · Centro do Recife
+
+
+
+A vida que o próximo capítulo acompanha já está aqui, nos trajetos e nas pausas de quem usa o Centro.
 
 
 
