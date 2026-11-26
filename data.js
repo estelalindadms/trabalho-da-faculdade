@@ -2,7 +2,7 @@ window.RECIFE_DATA = {
   "photos": [
     {
       "title": "A luz pela fresta",
-      "caption": "A faixa de luz abre o beco entre paredes marcadas pelo tempo. O percurso começa nesse espaço estreito, onde o contraste lembra o corte da xilogravura e convida a olhar devagar. Antes de encontrar o rio, é preciso atravessar a cidade à altura de quem caminha.",
+      "caption": "Uma faixa de sol corta o beco e faz saltar o reboco das fachadas. O ensaio começa por essa fresta: para ver o Centro, é preciso entrar nele a pé.",
       "alt": "Beco em perspectiva com calçamento de pedras, parede em sombra à esquerda e fachadas descascadas ao sol à direita.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -28,7 +28,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Entre paredes, um caminho",
-      "caption": "Os edifícios estreitam o céu e deixam uma faixa de luz sobre a passagem. Janelas, marquises e paredes manchadas mostram diferentes tempos de uso do Centro. Entre volumes de concreto, a rua continua sendo caminho para quem trabalha, passa e volta.",
+      "caption": "Entre paredes altas, a rua parece estreitar até a faixa de luz no chão. É por ali, entre carros e marquises, que a cidade oferece passagem a quem anda.",
       "alt": "Rua estreita entre edifícios altos, com paredes manchadas, marquises, carros estacionados e uma faixa de luz no pavimento.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -37,7 +37,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "O sono das janelas",
-      "caption": "As janelas fechadas e o reboco que se desprende dão à fachada uma aparência de suspensão. A fotografia permanece diante dessa superfície para perguntar pelo cuidado que a cidade oferece ao que herdou. O desgaste também faz parte da paisagem que se aprende a reconhecer como casa.",
+      "caption": "As janelas fechadas se repetem nos três andares. Num ponto da fachada, uma planta rompe a repetição e chama a atenção para o reboco que já se soltou.",
       "alt": "Sobrado de três pavimentos com portas e janelas fechadas, reboco descascado e vegetação junto a uma janela.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -54,7 +54,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Pele sobre pele",
-      "caption": "Revestimentos, inscrições e fios se sobrepõem como camadas de uma mesma página. A fachada guarda intervenções e marcas do uso, enquanto a rua continua recebendo novas presenças. Olhar suas superfícies é perceber uma cidade escrita por muitas mãos e por cuidados desiguais.",
+      "caption": "Os fios cruzam as fileiras de janelas como linhas desenhadas sobre a fachada. Entre inscrições e manchas, dá para ver quanto uso cabe numa parede.",
       "alt": "Fachada de edifício com fileiras de janelas, marcas de desgaste, inscrições e fiação em primeiro plano.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -80,7 +80,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O gesto que o tempo guarda",
-      "caption": "Uma figura mantém o braço erguido sobre a fachada, enquanto o suporte perde revestimento e recebe pequenas plantas. O gesto parece durar mais que a matéria que o sustenta. A fotografia aproxima a memória construída das necessidades concretas de conservação e cuidado.",
+      "caption": "O braço da estátua ainda aponta para cima. Em volta do pedestal, manchas e plantas deixam à vista o tempo que passou sobre o prédio.",
       "alt": "Estátua de figura humana com vestes longas e um braço erguido, sobre o coroamento de um edifício com manchas, perda de revestimento e vegetação.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -98,7 +98,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A luz perdeu algumas janelas",
-      "caption": "Vidros quadrados, peças ausentes e tapumes formam uma superfície interrompida. A luz encontra vazios onde antes havia fechamento, e o olhar acompanha as falhas até a calçada. A imagem transforma um detalhe arquitetônico em pergunta sobre proteção, manutenção e possibilidade de uso.",
+      "caption": "Os quadrados vazios interrompem a faixa de vidro. O olhar desce com eles, da fachada ferida ao tapume que acompanha a calçada.",
       "alt": "Fachada com uma faixa vertical de pequenos vidros quadrados, algumas peças ausentes ou danificadas, inscrições e tapumes metálicos junto à calçada.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -116,7 +116,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O chão pede cuidado",
-      "caption": "O entulho ocupa o chão junto à parede de azulejos danificados. As sombras desenham linhas sobre uma passagem que pede atenção de quem anda. O desgaste aparece na escala do corpo: circular pela cidade também depende de encontrar um caminho cuidado e acessível.",
+      "caption": "A sombra desenha linhas no chão, entre os postes e o entulho. Para quem passa a pé, o que parece detalhe da fotografia faz parte do caminho.",
       "alt": "Parede com azulejos danificados, inscrições e uma janela gradeada, com entulho e pequenos postes no chão, atravessados por sombras.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -125,7 +125,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "O avesso do passo",
-      "caption": "O enquadramento se aproxima dos resíduos junto à base da coluna e interrompe a distância confortável do cartão-postal. O chão devolve aquilo que a pressa costuma deixar fora do olhar. A leitura do Recife sujo encontra aqui uma necessidade de cuidado com o espaço compartilhado.",
+      "caption": "Junto à coluna, papel, uma seringa descartada e o corpo de um pequeno animal. À altura do chão, o beco deixa à vista o trabalho de limpeza e cuidado que a rua pede.",
       "alt": "Resíduos no chão junto à base de uma coluna, com papéis, um pequeno corpo de animal e uma seringa descartada.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -151,7 +151,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A margem dos contrastes",
-      "caption": "O Capibaribe coloca lado a lado edifícios conservados e fachadas marcadas pelo tempo. A paisagem permite perguntar como o investimento se distribui entre imóveis, ruas e pessoas. Os estudos do projeto aprofundam essa questão, aproximando valorização urbana, acesso aos espaços e direito de permanecer.",
+      "caption": "Da outra margem, o Capibaribe põe lado a lado fachadas conservadas e paredes marcadas pelo tempo. A vista abre uma pergunta sobre onde chega o investimento e quem pode permanecer à beira do rio.",
       "alt": "Vista do Capibaribe com uma sequência de edifícios altos na outra margem, alguns com inscrições e fachadas desgastadas, sob céu azul com nuvens.",
       "location": "Rua do Sol, Santo Antônio · vista através do Capibaribe",
       "locationConfidence": "Provável",
@@ -165,7 +165,7 @@ window.RECIFE_DATA = {
       "originalFile": "DSC05808.jpg",
       "src": "assets/autorais/DSC05808.jpg",
       "title": "As linhas que nos cercam",
-      "caption": "Fios cruzam o céu entre árvores e edifícios de alturas diferentes. O enquadramento faz a cidade parecer uma trama de ligações, limites e possibilidades. Ao lado das pesquisas sobre gentrificação, a fotografia abre uma pergunta sobre quem participa das mudanças e consegue continuar vivendo nesses lugares.",
+      "caption": "Vista de baixo, a rua perde o horizonte entre galhos, fios e torres. Os prédios sobem em escalas diferentes sobre um chão que todos precisam dividir.",
       "alt": "Edifícios de alturas diferentes vistos de baixo, com árvores em primeiro plano e fios atravessando o céu.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -180,7 +180,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Um endereço para ficar",
-      "caption": "O comércio em atividade divide o quadro com a fachada de um sobrado desgastado. São usos e condições diferentes convivendo na mesma paisagem. A fotografia acompanha a discussão sobre um Centro que precisa de cuidado e de condições para manter seus trabalhadores, moradores e pequenos negócios.",
+      "caption": "A floricultura segue aberta ao lado de um sobrado com o reboco caindo. Entre as duas fachadas, a permanência de um pequeno comércio vira parte da discussão sobre o futuro do Centro.",
       "alt": "Floricultura em edifício revestido de pastilhas ao lado de um sobrado com reboco deteriorado, inscrições e fiação.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -199,7 +199,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A cidade em parcelas",
-      "caption": "Ofertas de crédito e reivindicações por trabalho e educação disputam espaço na coluna. A parede reúne promessas de acesso e necessidades cotidianas. No percurso do ensaio, essa convivência leva à pergunta sobre o custo de morar, trabalhar e frequentar uma cidade que se valoriza.",
+      "caption": "Na mesma coluna cabem promessas de crédito e pedidos por estudo e trabalho. A parede põe perto duas contas do cotidiano: conseguir renda e pagar para continuar na cidade.",
       "alt": "Coluna coberta de cartazes sobre trabalho, estudantes e empréstimos, junto a uma abertura escura.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -218,7 +218,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Nomes contra o silêncio",
-      "caption": "Os nomes e retratos inscritos no caminho tornam a memória uma presença pública. Quem passa encontra histórias que precisam continuar sendo contadas. A cidade resiste também quando oferece espaço à lembrança e reconhece que a dignidade de suas pessoas integra o seu patrimônio.",
+      "caption": "Os nomes e os rostos estão no chão, ao alcance de quem passa pela Calçada da Memória. Ler essas placas é fazer uma pausa num caminho que a cidade pede para atravessar depressa.",
       "alt": "Placas com fotografias e nomes, entre eles Dom Helder Câmara, Soledad Barrett e Ivan Rocha Aguiar, dispostas sobre a terra.",
       "location": "Calçada da Memória, junto ao Monumento Tortura Nunca Mais, Rua da Aurora, Praça Padre Henrique.",
       "locationConfidence": "Alta",
@@ -235,7 +235,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "O peso da ausência",
-      "caption": "O Monumento Tortura Nunca Mais coloca a defesa da dignidade no espaço de circulação da cidade. A forma suspensa interrompe a paisagem e pede atenção. Depois das perguntas sobre cuidado e permanência, o percurso encontra a memória como compromisso com a vida e com os direitos humanos.",
+      "caption": "O concreto forma uma moldura pesada em torno do corpo suspenso. No Monumento Tortura Nunca Mais, o espaço vazio ao redor da figura prolonga a pergunta sobre o que a cidade decide lembrar.",
       "alt": "Escultura de figura humana suspensa dentro de uma grande estrutura retangular de concreto, com árvores ao fundo.",
       "location": "Monumento Tortura Nunca Mais, Praça Padre Henrique, Rua da Aurora.",
       "locationConfidence": "Alta",
@@ -251,40 +251,6 @@ window.RECIFE_DATA = {
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
     },
     {
-      "title": "O amanhã, letra por letra",
-      "caption": "Um trabalhador monta o letreiro, colocando cada letra no seu lugar. A programação do cinema de rua começa também nesse gesto paciente, antes de a luz alcançar a tela. A fotografia encontra a arte no trabalho necessário para que uma nova sessão possa receber seu público.",
-      "alt": "Pessoa sobre uma escada encaixa letras vermelhas em um letreiro que anuncia Vicentina pede desculpas.",
-      "location": "Cinema São Luiz, Rua da Aurora, 175, Boa Vista.",
-      "locationConfidence": "Alta",
-      "locationSourceUrl": "https://visit.recife.pe.gov.br/lugar/cinema-sao-luiz/",
-      "originalFile": "DSC05702.jpg",
-      "date": "2026-11-05",
-      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
-      "src": "assets/autorais/DSC05702.jpg",
-      "width": 1200,
-      "height": 1600,
-      "author": "Samico",
-      "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
-    },
-    {
-      "title": "Versos sob a luz",
-      "caption": "Cordéis e materiais do acervo se encontram no CENA, dentro do Cinema São Luiz. A palavra impressa aproxima sua memória da imagem em movimento. Esse encontro de linguagens inspira o próprio projeto: um folheto digital em que fotografia, verso e som constroem juntos uma forma de percorrer o Recife.",
-      "alt": "Folhetos de cordel em vitrine iluminada, abaixo de painéis expositivos sobre cordel e a gravadora Rozenblit.",
-      "location": "Centro de Referência do Audiovisual Pernambucano, segundo pavimento do Cinema São Luiz.",
-      "locationConfidence": "Alta",
-      "locationSourceUrl": "https://revistacontinente.com.br/secoes/arquivo/centro-de-referencia-do-audiovisual-e-inaugurado-no-cinema-sao-luiz",
-      "originalFile": "DSC05707.jpg",
-      "date": "2026-11-05",
-      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
-      "src": "assets/autorais/DSC05707.jpg",
-      "width": 1200,
-      "height": 1600,
-      "author": "frança",
-      "license": "Direitos da pessoa autora",
-      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
-    },
-    {
       "originalFile": "DSC05914.jpg",
       "width": 1256,
       "height": 1600,
@@ -295,7 +261,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Passos sob o concreto",
-      "caption": "Duas pessoas seguem pela calçada sob a marquise. A passagem coberta faz parte de um trajeto cotidiano pelo Centro. A cena chama a atenção para as condições de quem percorre essas ruas a pé.",
+      "caption": "A marquise alonga o caminho de duas pessoas diante das portas metálicas. A sombra que acompanha seus passos mostra o que uma fachada pode oferecer a quem anda pelo Centro.",
       "alt": "Duas pessoas, vistas de costas, caminham sob uma marquise comprida. Portas metálicas fechadas e inscrições nas paredes acompanham a calçada.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -313,7 +279,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Um lugar para descansar",
-      "caption": "Uma pessoa está sentada junto à vitrine de uma loja. A cena levanta uma pergunta sobre o espaço público. Onde é possível sentar e descansar no Centro?",
+      "caption": "Junto à vitrine, a calçada é também um lugar de pausa. A cena pede uma pergunta concreta: onde quem percorre o Centro pode se sentar e descansar?",
       "alt": "Pessoa sentada na calçada com os joelhos recolhidos, ao lado de uma sacola, junto à parede e à vitrine de uma loja.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -326,7 +292,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05662.jpg",
       "originalFile": "DSC05662.jpg",
       "title": "Um carrinho pelo Centro",
-      "caption": "Uma pessoa conduz um carrinho pelo beco de pedras. Outras pessoas aparecem ao fundo, entre as fachadas. A fotografia convida a pensar em como a cidade recebe esses trajetos cotidianos.",
+      "caption": "O carrinho ocupa boa parte do beco de pedras. Acompanhá-lo com o olhar faz medir a rua pela largura da passagem e pelo esforço de quem conduz a carga.",
       "alt": "Pessoa conduz um grande carrinho por um beco com calçamento de pedras, fachadas antigas e outras pessoas ao fundo.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -346,7 +312,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05674.jpg",
       "originalFile": "DSC05674.jpg",
       "title": "Pequenos mares à venda",
-      "caption": "Na banca, aquários e produtos organizam um pequeno universo de atendimento e troca. A atividade cotidiana devolve movimento às superfícies vistas no início do ensaio. O Recife vivo começa por esse trabalho de abrir, cuidar, oferecer e conversar com quem passa.",
+      "caption": "Os aquários acesos abrem pequenas janelas de água em meio às embalagens. Numa banca do Centro, até a luz faz parte do jeito de expor e cuidar da mercadoria.",
       "alt": "Pessoa junto a pequenos aquários iluminados, com peixes, embalagens e produtos expostos em uma banca.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -370,7 +336,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O sustento pendurado",
-      "caption": "Bananas penduradas, abacaxis e caixas de frutas dão ritmo e cor à esquina. A banca acompanha as necessidades de quem circula e o trabalho de quem prepara o sustento. A vida do Centro se mantém também nessa relação diária entre alimento, comércio e presença na rua.",
+      "caption": "Os cachos e os abacaxis pendem sobre as caixas, à altura de quem chega à banca. Atrás das frutas, os carros lembram que o balcão se monta no ritmo da esquina.",
       "alt": "Pessoa de costas diante de uma banca de frutas, com cachos de bananas e abacaxis pendurados, caixas de produtos e carros ao fundo.",
       "location": "Esquina das Frutas · Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -379,7 +345,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Debaixo dos guarda-sóis",
-      "caption": "Guarda-sóis, roupas, mercadorias e pessoas ocupam a passagem, com o patrimônio religioso ao fundo. O comércio popular produz usos, encontros e caminhos próprios. A fotografia mostra um Centro vivido de perto, onde a sobrevivência se constrói no trabalho e na capacidade de ocupar a rua.",
+      "caption": "Sob os guarda-sóis, roupas e pessoas enchem o corredor. As torres ajudam a localizar a feira, mas são as bancas que desenham o caminho de quem passa por ela.",
       "alt": "Corredor de comércio popular com roupas, guarda-sóis coloridos e pessoas em circulação; duas torres pontiagudas aparecem ao fundo.",
       "location": "São José · Recife",
       "locationConfidence": "Provável",
@@ -398,7 +364,7 @@ window.RECIFE_DATA = {
     {
       "title": "Entre os carros",
       "alt": "Homem de chapéu roxo e camiseta listrada segura garrafas de água e sacos de lanches entre carros e motos.",
-      "caption": "O vendedor leva água e lanches por entre os carros. Depois das bancas da feira, o comércio de rua aparece no espaço que se abre entre os veículos.",
+      "caption": "De chapéu roxo, o vendedor leva água e lanches entre carros e motos. A banca aqui muda de lugar com os passos de quem carrega a mercadoria.",
       "originalFile": "DSC05695.jpg",
       "src": "assets/autorais/DSC05695.jpg",
       "width": 1200,
@@ -415,7 +381,7 @@ window.RECIFE_DATA = {
     {
       "title": "Quando o sinal abre",
       "alt": "Visto de costas, um homem carrega sacos de lanches junto à faixa de pedestres. O semáforo está verde e uma moto passa à esquerda.",
-      "caption": "O olhar segue da pista para a calçada. Os sacos de lanches seguem com o vendedor, e o ritmo do trabalho acompanha o vaivém do cruzamento.",
+      "caption": "Visto de costas, o vendedor chega à calçada com os sacos na mão. O sinal verde e a moto que passa dão à segunda foto o ritmo do cruzamento.",
       "originalFile": "DSC05696.jpg",
       "src": "assets/autorais/DSC05696.jpg",
       "width": 1200,
@@ -433,7 +399,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05691.jpg",
       "originalFile": "DSC05691.jpg",
       "title": "O livreiro entre caminhos",
-      "caption": "Junto aos livros expostos, uma pessoa permanece entre a passagem e o acervo. A calçada ganha o tempo da escolha, da conversa e da descoberta. O sebo mantém a palavra acessível ao encontro e faz obras já lidas começarem outras histórias com novos leitores.",
+      "caption": "Os livros ficam à mão de quem passa pela banca. Entre a cobertura de telhas e a placa de estacionamento, a calçada oferece tempo para parar, folhear e escolher.",
       "alt": "Pessoa de boné diante de livros expostos em uma banca, junto a uma estrutura de telhas e uma placa parcial de estacionamento.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -448,7 +414,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Morada de papel",
-      "caption": "As pilhas de livros transformam o espaço de passagem em possibilidade de leitura. Cada volume carrega marcas de outros percursos e pode seguir para novas mãos. A cultura permanece em circulação pelo trabalho de guardar, apresentar e compartilhar aquilo que continua tendo algo a dizer.",
+      "caption": "Revistas, apostilas e livros deixam um corredor estreito na entrada do sebo. Para encontrar um título, o olhar precisa subir pelas prateleiras e baixar até as pilhas.",
       "alt": "Entrada de um sebo com pilhas de livros, revistas e apostilas, prateleiras e um pequeno corredor central.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -467,7 +433,7 @@ window.RECIFE_DATA = {
       "originalFile": "DSC05748.jpg",
       "src": "assets/autorais/DSC05748.jpg",
       "title": "Sob a marquise, a vida",
-      "caption": "A marquise e os pilares aproximam a memória do antigo Trianon dos sebos que continuam ocupando a calçada. Livros, discos e filmes encontram público junto à arquitetura marcada pelo tempo. Esta fotografia em preto e branco integra o Recife vivo porque acompanha a permanência da arte nas bancas e nos encontros.",
+      "caption": "Os pilares do antigo Trianon ainda marcam a calçada. Sob a marquise, as bancas de livros mostram como o endereço continua recebendo gente, décadas depois do registro de 1961.",
       "alt": "Fachada com grandes pilares e uma marquise, com livros e outros produtos expostos na calçada e pessoas junto às bancas.",
       "location": "Centro do Recife · entorno da Avenida Guararapes",
       "locationConfidence": "Provável",
@@ -485,7 +451,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A tela mora na calçada",
-      "caption": "Capas de DVDs, CDs, livros e pequenos objetos dividem a banca. Depois da memória do Trianon, o percurso encontra filmes disponíveis em outro suporte, ao alcance de quem para para olhar. A relação com as imagens continua pela escolha, pela conversa e pela troca nas calçadas.",
+      "caption": "As capas dos DVDs e CDs fazem da banca uma vitrine à altura dos olhos. Quem procura um filme pode sair dali com uma obra que encontrou por acaso.",
       "alt": "Pilhas de DVDs e CDs à venda junto a uma porta metálica, com livros e pequenos enfeites expostos.",
       "location": "Centro do Recife · entorno da Avenida Guararapes",
       "locationConfidence": "Provável",
@@ -513,7 +479,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A porta tem som",
-      "caption": "A entrada da loja já apresenta um repertório: capas, cartazes e lembranças musicais dividem a superfície. Antes de qualquer disco tocar, o olhar reconhece referências e encontra outras. A porta prepara o encontro com um espaço em que a música é também objeto, memória e conversa.",
+      "caption": "Cartazes de rock e retratos quase cobrem o vidro da porta. Antes mesmo de entrar, quem passa já consegue ler um pouco do repertório que circula ali.",
       "alt": "Porta de vidro com cartazes de rock, uma imagem de perfil com um réptil sobre a cabeça, anúncios e pequenos impressos musicais.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -531,7 +497,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Seu João, guardião de encontros",
-      "caption": "Seu João organiza os discos no balcão, cercado por capas e imagens de diferentes repertórios. A fotografia acompanha o gesto de lidar com o acervo, aproximando a permanência da música de um trabalho cotidiano. A cultura encontra continuidade nas pessoas que a colocam novamente em circulação.",
+      "caption": "No balcão, Seu João organiza os discos cercado pelas capas que já pôs em circulação. O retrato começa pelo trabalho de arrumar e guardar aquilo que alguém ainda vai procurar.",
       "alt": "Seu João organiza discos no balcão de uma loja, cercado por capas de CDs, cartazes e imagens de músicos.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -552,7 +518,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O sorriso de Seu João",
-      "caption": "O sorriso de Seu João dá ao acervo uma presença próxima. Depois do plano do balcão, o retrato faz o percurso parar diante de quem participa desse encontro com a música. Entre discos, gestos e conversa, o Recife vivo ganha um rosto e uma forma de acolher.",
+      "caption": "Na foto seguinte, Seu João ergue a mão e sorri. As estantes continuam ao fundo, mas agora é o gesto dele que conduz o encontro.",
       "alt": "Seu João sorri e ergue uma das mãos, atrás do balcão de uma loja de discos com estantes de CDs ao fundo.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -563,8 +529,42 @@ window.RECIFE_DATA = {
       "featured": true
     },
     {
+      "title": "O amanhã, letra por letra",
+      "caption": "No alto da escada, uma pessoa encaixa as letras do próximo filme. Antes de o público entrar no São Luiz, a sessão já começou nas mãos de quem prepara o letreiro.",
+      "alt": "Pessoa sobre uma escada encaixa letras vermelhas em um letreiro que anuncia Vicentina pede desculpas.",
+      "location": "Cinema São Luiz, Rua da Aurora, 175, Boa Vista.",
+      "locationConfidence": "Alta",
+      "locationSourceUrl": "https://visit.recife.pe.gov.br/lugar/cinema-sao-luiz/",
+      "originalFile": "DSC05702.jpg",
+      "date": "2026-11-05",
+      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
+      "src": "assets/autorais/DSC05702.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "Samico",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
+    },
+    {
+      "title": "Versos sob a luz",
+      "caption": "Sob a luz da vitrine, a capa dos folhetos chama o olhar como um cartaz. Guardado no CENA, o cordel encontra outro público dentro de um cinema de rua.",
+      "alt": "Folhetos de cordel em vitrine iluminada, abaixo de painéis expositivos sobre cordel e a gravadora Rozenblit.",
+      "location": "Centro de Referência do Audiovisual Pernambucano, segundo pavimento do Cinema São Luiz.",
+      "locationConfidence": "Alta",
+      "locationSourceUrl": "https://revistacontinente.com.br/secoes/arquivo/centro-de-referencia-do-audiovisual-e-inaugurado-no-cinema-sao-luiz",
+      "originalFile": "DSC05707.jpg",
+      "date": "2026-11-05",
+      "dateSource": "Data informada pela autoria; relógio da câmera incorreto.",
+      "src": "assets/autorais/DSC05707.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "frança",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco."
+    },
+    {
       "title": "Um olhar dentro do outro",
-      "caption": "Uma pessoa observa e produz uma nova imagem dentro da Casa da Cultura. O patrimônio participa de uma experiência presente, feita de olhares, conversas e descobertas. A fotografia recorda que os lugares culturais continuam vivos quando recebem pessoas capazes de criar outras relações com eles.",
+      "caption": "No corredor da Casa da Cultura, uma pessoa fotografa outra. Sob a faixa dos cinquenta anos, o olhar passa do prédio para quem o está descobrindo.",
       "alt": "Uma pessoa fotografa outra no corredor da Casa da Cultura, sob uma bandeira de cinquenta anos do espaço.",
       "location": "Casa da Cultura de Pernambuco, Rua Floriano Peixoto, 95, Santo Antônio.",
       "locationConfidence": "Alta",
@@ -581,7 +581,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A memória gira",
-      "caption": "O equipamento de projeção aproxima o cinema de sua matéria: engrenagens, luz e trabalho. A memória da imagem em movimento também habita as máquinas e os gestos que tornaram cada sessão possível. Neste percurso, o objeto liga a história da exibição à vontade de continuar mostrando filmes.",
+      "caption": "Película e engrenagens ocupam a sala de projeção. De perto, o cinema ganha peso e volume: um filme dependia de mãos capazes de passar a fita pela máquina.",
       "alt": "Rolos de película e mecanismo de projeção ocupam uma sala com outros equipamentos de cinema.",
       "location": "Recife · memória da projeção cinematográfica",
       "locationConfidence": "Provável",
@@ -598,7 +598,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A rua aprende a sonhar",
-      "caption": "O mural ligado ao audiovisual ocupa a fachada da Aurora Filmes e encontra a passagem cotidiana da rua. A escola informa oferecer cursos gratuitos. A imagem aproxima a circulação da arte da formação de quem poderá criar outros registros, outras histórias e outros olhares sobre a cidade.",
+      "caption": "A claquete pintada divide a fachada da Aurora Filmes com uma pessoa e seu cachorro. A imagem do cinema entra na rua e encontra a escala de quem passa diante dela.",
       "alt": "Pessoa com um cachorro diante de fachada colorida com o nome Aurora Filmes, uma película e uma claquete pintadas.",
       "location": "Aurora Filmes, Rua da Aurora, 987, Santo Amaro.",
       "locationConfidence": "Alta",
@@ -617,7 +617,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05785.jpg",
       "originalFile": "DSC05785.jpg",
       "title": "O canto sobe o concreto",
-      "caption": "O mural de Luiz Gonzaga, criado por Eduardo Kobra, se ergue na lateral da Prefeitura. Visto na paisagem do rio, o retrato aproxima a memória musical da escala dos edifícios. A arte participa do horizonte cotidiano e oferece uma referência compartilhada a quem atravessa suas margens.",
+      "caption": "A sanfona de Luiz Gonzaga aparece acima das copas, na fachada da Prefeitura. O mural faz a música ocupar uma altura em que até quem cruza a cidade de longe pode encontrá-la.",
       "alt": "Prédio da Prefeitura do Recife com grande mural de Luiz Gonzaga tocando sanfona na lateral, acima das árvores.",
       "location": "Mural na Prefeitura do Recife · Cais do Apolo",
       "locationConfidence": "Alta",
@@ -634,7 +634,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05645.jpg",
       "originalFile": "DSC05645.jpg",
       "title": "Primavera de balcão",
-      "caption": "Flores ocupam o balcão e a entrada, fazendo a cor avançar sobre o caminho de quem passa. O comércio encontra o afeto nos gestos de escolher, oferecer e levar consigo. A sobrevivência da cidade também se faz nesses pequenos rituais que dão lugar ao cuidado entre pessoas.",
+      "caption": "Na entrada da floricultura, os arranjos se espalham em alturas e cores diferentes. São as mãos que montam a exposição que fazem a primavera chegar à calçada.",
       "alt": "Flores coloridas e pequenos arranjos ocupam prateleiras e expositores na entrada de uma floricultura.",
       "location": "Floricultura Pernambucana · Recife",
       "locationConfidence": "A confirmar",
@@ -658,7 +658,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A conversa ocupa a rua",
-      "caption": "Mesas e cadeiras levam a conversa para o espaço entre os edifícios. Sentar, comer e permanecer mudam o ritmo da passagem. O Centro se torna lugar de convivência quando a rotina abre tempo para a companhia e quando a rua pode receber outros usos além da pressa.",
+      "caption": "As mesas e os vasos acompanham o calçamento entre os prédios. Quando a conversa se demora, a rua serve também para o encontro e a pausa.",
       "alt": "Rua estreita de pedras entre edifícios, com bares, mesas e cadeiras plásticas, pessoas sentadas e vasos com plantas ao longo da passagem.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -676,7 +676,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O tempo senta à mesa",
-      "caption": "Uma pessoa segura os óculos junto à mesa, entre objetos simples e uma parede de cor quente. A pausa oferece ao percurso outra medida de tempo. A cidade também acontece na atenção de um gesto, na possibilidade de descansar e na presença de quem permanece.",
+      "caption": "Com os óculos junto ao peito e uma garrafa à mesa, a pessoa permanece sentada. A foto dá a esse intervalo o mesmo espaço que o ensaio dá à pressa das travessias.",
       "alt": "Pessoa de cabelos brancos sentada em uma cadeira, segurando os óculos junto ao peito, ao lado de uma mesa branca com uma garrafa de água.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -687,7 +687,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05804.jpg",
       "originalFile": "DSC05804.jpg",
       "title": "Brinde ao azul",
-      "caption": "Duas pessoas dividem a mesa diante de uma parede azul. O encontro aproxima a vida urbana dos vínculos que se constroem no cotidiano. Entre trabalho e travessia, há também o tempo de estar junto: uma forma de ocupar a cidade e de fazer dela um lugar compartilhado.",
+      "caption": "A mesa vermelha avança contra a parede azul. Copos e gestos dão ao retrato o tom descontraído de quem divide a mesa e devolve o olhar.",
       "alt": "Duas pessoas posam sentadas a uma mesa vermelha com copos e bebidas diante de uma parede azul; uma faz um sinal de positivo e outra ergue o dedo médio.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
@@ -702,8 +702,8 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Nós, na cor da rua",
-      "caption": "Duas pessoas posam diante do mural e fazem da fotografia um encontro com a pintura da rua. A cor reúne a imagem já existente e o gesto de criar outro registro. O Recife vivo aparece nessa capacidade de produzir presença, afeto e memória a partir do espaço comum.",
-      "alt": "Duas pessoas posam diante de um mural colorido com um grande rosto de chapéu e uma fileira de casas pintadas.",
+      "caption": "Duas mulheres posam entre o rosto enorme do mural e a fileira de casas pintadas. A pintura vira parte do retrato e aproxima a escala da parede da escala dos corpos.",
+      "alt": "Duas mulheres posam diante de um mural colorido com um grande rosto de chapéu e uma fileira de casas pintadas.",
       "location": "Centro do Recife",
       "locationConfidence": "A confirmar",
       "locationSourceUrl": "",
@@ -721,7 +721,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05684.jpg",
       "originalFile": "DSC05684.jpg",
       "title": "O passo é coletivo",
-      "caption": "Pessoas atravessam a rua, entre elas uma pessoa em cadeira de rodas acompanhada por outra. O movimento dá escala humana aos edifícios e aos veículos. Uma cidade viva precisa oferecer condições de circulação e participação para que diferentes corpos possam alcançar e ocupar seus espaços.",
+      "caption": "Pedestres dividem a travessia com o trânsito ao redor. A presença de uma pessoa em cadeira de rodas torna visível uma questão de toda a rua: quem consegue cruzá-la com segurança?",
       "alt": "Pessoas atravessam uma via, incluindo uma pessoa em cadeira de rodas acompanhada por outra; há carros, ônibus, árvores e uma fachada com inscrições ao fundo.",
       "location": "Centro do Recife",
       "locationConfidence": "Provável",
@@ -747,7 +747,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "A cidade atravessa",
-      "caption": "Ônibus e pessoas cruzam o rio enquanto a margem aparece em primeiro plano. A ponte reúne trajetos de trabalho, retorno e encontro. Ao conduzir o olhar da rua à água, a fotografia mostra o Recife como uma cidade feita também das ligações entre suas partes.",
+      "caption": "A linha vermelha da ponte leva o olhar de uma margem à outra. Sobre ela, ônibus e pedestres fazem do Capibaribe parte do trajeto diário de quem cruza o Centro.",
       "alt": "Ponte de concreto com lateral vermelha sobre o Capibaribe, com ônibus e pedestres, margem baixa em primeiro plano e uma cúpula entre os telhados ao fundo.",
       "location": "Rio Capibaribe · Centro do Recife",
       "locationConfidence": "Provável",
@@ -756,7 +756,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A pressa atravessa o rio",
-      "caption": "Pessoas e ônibus atravessam a Ponte Duarte Coelho em direção aos edifícios da Conde da Boa Vista. O deslocamento cotidiano encontra a escala do Centro e aproxima suas margens. A travessia leva adiante o percurso: a cidade continua em cada ida e em cada volta.",
+      "caption": "Na calçada da ponte, os passos correm ao lado dos ônibus. O letreiro do São Luiz fica no canto do quadro, como um endereço reconhecível no meio da travessia.",
       "alt": "Pessoas caminham na calçada de uma ponte, diante de ônibus e edifícios. O letreiro do Cinema São Luiz aparece à esquerda.",
       "location": "Ponte Duarte Coelho, voltada para a Avenida Conde da Boa Vista.",
       "locationConfidence": "Alta",
@@ -775,7 +775,7 @@ window.RECIFE_DATA = {
       "originalFile": "DSC05669-3.jpg",
       "src": "assets/autorais/DSC05669-3.jpg",
       "title": "O verde guarda a água",
-      "caption": "Água, raízes e reflexos formam um espaço de vida entre as construções da cidade. O mangue pede outro tempo de observação, mais próximo daquilo que cresce e se renova. O percurso encontra nele uma presença viva que participa da paisagem e da imaginação cultural do Recife.",
+      "caption": "A vegetação toma as bordas da fotografia e deixa a água aparecer em reflexos. Depois de tantas paredes, o mangue muda a medida do espaço: aqui, o olhar passa entre folhas e raízes.",
       "alt": "Vegetação densa e raízes junto a um trecho de água com reflexos, em uma imagem vertical do mangue.",
       "location": "Mangue · Recife",
       "locationConfidence": "A confirmar",
@@ -790,7 +790,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "A lama inventa raízes",
-      "caption": "Pequenas folhas surgem entre raízes expostas e troncos sobre a lama. O enquadramento se aproxima do que cresce junto ao chão e transforma a ideia de sujeira em outra leitura da matéria. Aqui, o mangue faz aparecer processos de vida, continuidade e renovação.",
+      "caption": "As raízes sobem do lodo em pontos diferentes, onde a luz consegue chegar. Vista de perto, a margem revela o que cresce no mesmo chão que a cidade tantas vezes trata como sobra.",
       "alt": "Raízes e pequenas plantas emergem do solo lodoso entre troncos, galhos e manchas de luz.",
       "location": "Mangue às margens do Capibaribe · Recife",
       "locationConfidence": "Provável",
@@ -809,7 +809,7 @@ window.RECIFE_DATA = {
       "src": "assets/autorais/DSC05777.jpg",
       "originalFile": "DSC05777.jpg",
       "title": "O rio ainda reúne",
-      "caption": "Pessoas se reúnem junto ao Capibaribe, com o mural da Prefeitura na outra margem. O rio entra no cotidiano como lugar de permanência e companhia. A paisagem deixa de ser apenas vista distante e passa a acolher encontros que mantêm a cidade em uso.",
+      "caption": "Na ponta do píer, algumas pessoas se sentam e outras ficam de pé. Do outro lado, o mural da Prefeitura ainda aparece: o rio reúne dois modos de olhar a mesma cidade.",
       "alt": "Pessoas sentadas e em pé na ponta de um píer no Capibaribe, com vegetação e o prédio da Prefeitura com mural ao fundo.",
       "location": "Rio Capibaribe · vista para a Prefeitura do Recife",
       "locationConfidence": "Alta",
@@ -824,7 +824,7 @@ window.RECIFE_DATA = {
     },
     {
       "title": "Onde a margem abraça",
-      "caption": "A passagem de madeira avança em direção à água e recebe pessoas sentadas e em movimento. Entre as árvores, o espaço se abre para a pausa e para a conversa. Aproximar-se do rio é também encontrar outras maneiras de estar no Recife e compartilhar suas margens.",
+      "caption": "Nesta vista, a vegetação quase envolve o píer. A madeira oferece um lugar para chegar perto da água e ficar ali por um tempo.",
       "alt": "Pessoas sentadas e em pé em um píer de madeira, cercado por vegetação nas margens de um rio.",
       "location": "Rio Capibaribe · Recife",
       "locationConfidence": "Provável",
@@ -850,7 +850,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "O rio continua ocupado",
-      "caption": "Uma pessoa organiza a rede na canoa; ao fundo, remadores atravessam a água sob a ponte. Trabalho, prática esportiva e circulação compõem diferentes usos do mesmo rio. O percurso chega ao Capibaribe em atividade, onde a vida se mantém pelos gestos de quem o ocupa.",
+      "caption": "Na canoa vermelha, uma pessoa arruma a rede enquanto dois barcos a remo atravessam o quadro. Sob a mesma ponte, o rio comporta ritmos de trabalho e de travessia.",
       "alt": "Pessoa com chapéu organizando uma rede em uma canoa vermelha, com duas pequenas embarcações a remo atrás e uma ponte verde-azulada na parte superior da imagem.",
       "location": "Rio Capibaribe · Centro do Recife",
       "locationConfidence": "Provável",
@@ -869,7 +869,7 @@ window.RECIFE_DATA = {
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "title": "Até aqui, seguimos",
-      "caption": "A vista lateral da canoa revela a frase pintada no casco enquanto uma pessoa trabalha em seu interior. A fotografia encerra o ensaio com uma ação ainda em curso. O Recife segue vivo nessa continuidade: no sustento, nos vínculos e no direito de fazer parte da cidade.",
+      "caption": "Vista de lado, a canoa deixa ler a inscrição do casco enquanto uma pessoa segue trabalhando a bordo. O ensaio acaba nesse gesto, com o Capibaribe ainda em movimento.",
       "alt": "Canoa vermelha vista de lado, com uma pessoa inclinada em seu interior, motor na ponta e a inscrição Até aqui nos ajudou o Senhor na lateral; uma pequena embarcação a remo aparece ao fundo.",
       "location": "Rio Capibaribe · Centro do Recife",
       "locationConfidence": "Provável",
@@ -882,14 +882,14 @@ window.RECIFE_DATA = {
     {
       "number": "I",
       "title": "A pele da rua",
-      "intro": "O percurso começa nas frestas e se aproxima das superfícies: reboco, janelas, tapumes e chão. As marcas do desgaste pedem cuidado com o patrimônio e com as calçadas de quem usa o Centro. O capítulo acompanha as condições de conservação e limpeza do espaço urbano.",
+      "intro": "Um facho de luz abre caminho entre paredes descascadas. A partir daí, o olhar sobe até as janelas, desce ao chão e acompanha o desgaste que faz parte de andar pelo Centro.",
       "stanza": [
-        "Na parede, a tinta cede,",
-        "O reboco encontra o chão.",
-        "Há passagem e há trabalho,",
-        "Mas não chega a proteção.",
-        "Toda rua pede amparo",
-        "Muito além da compaixão."
+        "J. Borges talha a madeira,",
+        "Dá à sombra uma feição.",
+        "Samico mira o reboco,",
+        "frança enquadra o chão.",
+        "Da fresta se tira um verso",
+        "Pra rua caber na mão."
       ],
       "photoCount": 8,
       "partLabel": "RECIFE SUJO",
@@ -897,116 +897,116 @@ window.RECIFE_DATA = {
         "0": {
           "number": "01",
           "title": "Entrar pelas frestas",
-          "intro": "O caminho começa entre paredes. A perspectiva abre espaço para observar as superfícies e a escala de quem caminha."
+          "intro": "O beco começa entre duas fachadas. Repare como a luz muda o que parece perto e o que fica escondido."
         },
         "4": {
           "number": "02",
           "title": "O que pede cuidado",
-          "intro": "Escultura, vidros, revestimento e chão aproximam o olhar das necessidades de manutenção."
+          "intro": "Da estátua no alto ao entulho na calçada, o desgaste muda de escala. Quem caminha encontra suas consequências no chão."
         }
       }
     },
     {
       "number": "II",
       "title": "Quem pode permanecer?",
-      "intro": "Da frente do rio aos anúncios nas paredes, o ensaio pergunta quem consegue continuar morando, trabalhando e convivendo no Centro. As fotografias colocam usos diferentes lado a lado. Os estudos sobre o Recife ajudam a discutir a relação entre valorização, acesso e permanência.",
+      "intro": "Da margem do Capibaribe às placas de emprego e empréstimo, estas fotos mostram despesas e possibilidades que dividem a mesma rua. Quem pode continuar morando ou trabalhando no Centro quando o custo de ficar sobe?",
       "stanza": [
-        "O aluguel fecha portas",
-        "Pra quem vive de vender.",
-        "Quem construiu seu caminho",
-        "Tem direito de viver",
-        "No lugar de sua história,",
-        "Sem sumir para caber."
+        "Chico canta entre motores,",
+        "A Nação faz o chão tremer.",
+        "Sobe o preço da morada,",
+        "Quem tem como se manter?",
+        "O camelô abre a banca,",
+        "Tem direito de viver."
       ],
       "photoCount": 4
     },
     {
       "number": "III",
       "title": "A memória permanece",
-      "intro": "Os nomes da Calçada da Memória e o Monumento Tortura Nunca Mais inscrevem histórias no espaço público. O percurso diminui o passo para reconhecer a lembrança como uma forma de cuidado. Uma cidade que preserva vidas, direitos e memórias também constrói condições para um futuro compartilhado.",
+      "intro": "Na Calçada da Memória, os rostos aparecem junto ao chão. No Monumento Tortura Nunca Mais, um corpo suspenso detém o olhar. São duas maneiras de inscrever na rua histórias que precisam ser lembradas.",
       "stanza": [
-        "Cada nome guarda um rosto,",
-        "Cada rosto, uma razão.",
-        "A memória ocupa a rua",
-        "E recusa a negação.",
-        "Lembrar é cuidar da vida",
-        "E cobrar reparação."
+        "Na Rua da União,",
+        "O tempo muda de lugar.",
+        "Bandeira escuta os passos,",
+        "Rossi canta a dor de amar.",
+        "Sob a sombra da marquise,",
+        "Quem tem banco pra sentar?"
       ],
       "photoCount": 2
     },
     {
       "number": "IV",
       "title": "A arte circula",
-      "intro": "O trabalho no letreiro do São Luiz encontra o cordel no acervo do CENA. A arte circula entre suportes e pessoas: montar uma programação, conservar um impresso e receber o público são gestos que mantêm a criação presente na cidade. O percurso segue desses encontros para o trabalho, os sebos e a vida nas ruas.",
+      "intro": "O cordel reúne música, fotografia e cinema na quarta sextilha.",
       "stanza": [
-        "Quando a sala fecha a porta,",
-        "Segue viva a criação.",
-        "O cordel encontra a tela,",
-        "O disco encontra outra mão.",
-        "Seu João reúne as vozes:",
-        "Cada encontro, uma canção."
+        "Mário guardou a fachada,",
+        "Kleber guardou a sessão.",
+        "Nóbrega puxa a rabeca,",
+        "Seu João vira o bolachão.",
+        "O sebo abre sua porta,",
+        "A arte muda de mão."
       ],
-      "photoCount": 2
+      "photoCount": 0
     },
     {
       "id": "recife-esquecido",
       "title": "Recife Esquecido",
-      "intro": "Três cenas do Centro abrem uma pergunta sobre o direito à cidade. Há quem caminhe sob uma marquise, quem se sente junto a uma vitrine e quem conduza um carrinho pelo beco. O título chama atenção para o que o espaço público oferece a quem o utiliza. Calçadas que permitam circular, sombra e lugares para sentar e descansar fazem parte desse direito.",
+      "intro": "Duas pessoas passam sob uma marquise. Outra faz uma pausa junto à vitrine. Um carrinho atravessa o beco. Vistas juntas, as três cenas perguntam o que as ruas do Centro oferecem a quem precisa passar, parar ou trabalhar.",
       "photoCount": 3,
-      "closing": "A vida que o próximo capítulo acompanha já está aqui, nos trajetos e nas pausas de quem usa o Centro."
+      "closing": "Quem passa, descansa e trabalha nessas ruas já faz parte do Recife Vivo. É com essas pessoas que o percurso segue."
     },
     {
       "number": "V",
-      "title": "Recife vivo",
-      "intro": "Trinta fotografias acompanham a cidade que continua sendo feita: a banca que abre, o vendedor entre os carros, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.",
+      "title": "Recife Vivo",
+      "intro": "O Recife Vivo começa junto às bancas e aos sebos. Passa pela arte que ocupa fachadas e pelo tempo de uma conversa à mesa. Depois das pontes, chega ao Capibaribe, onde o trabalho segue entre redes e remos.",
       "stanza": [
-        "Cada remo risca a água,",
-        "Cada rede é profissão.",
-        "Recife vive no gesto,",
-        "No fazer de cada mão.",
-        "A cidade segue viva",
-        "Quando a vida tem seu chão."
+        "Cabral escuta o rio,",
+        "Rede lançada é profissão.",
+        "Nação Zumbi puxa o coco,",
+        "Gonzaga sopra o baião.",
+        "No Capibaribe, o remo",
+        "Leva a cor de mão em mão."
       ],
       "alive": true,
-      "photoCount": 30,
+      "photoCount": 32,
       "sections": {
         "0": {
           "number": "01",
           "title": "O trabalho põe a rua em movimento",
-          "intro": "A banca, as frutas, a feira e a venda entre os carros apresentam o trabalho cotidiano que alimenta a circulação e o sustento. A cor acompanha quem abre caminhos para continuar vivendo da cidade."
+          "intro": "Dos aquários e das caixas de frutas aos lanches entre os carros, cada banca tem seu jeito de encontrar quem passa."
         },
         "5": {
           "number": "02",
           "title": "As histórias encontram público",
-          "intro": "Livros, filmes e discos encontram novos públicos. A memória do Trianon se aproxima dos sebos que seguem em atividade: o cinema permanece também nos filmes oferecidos nas bancas. Da marquise ao balcão de Seu João, a cultura continua viva em quem conserva, procura e compartilha as obras."
+          "intro": "Sob a marquise do Trianon e no balcão de Seu João, livros, discos e filmes passam de mão em mão. É uma forma de a arte continuar circulando pelo Centro."
         },
         "12": {
           "number": "03",
           "title": "Criar também é permanecer",
-          "intro": "A fotografia, a projeção, a formação em audiovisual e a pintura produzem novas relações com a paisagem. Criar amplia as maneiras de participar da cidade e de imaginar seu futuro."
+          "intro": "No São Luiz, o letreiro anuncia a próxima sessão e os folhetos do CENA aguardam quem os leia. O percurso passa daí à fotografia, à projeção e às pinturas que tomam as fachadas."
         },
-        "16": {
+        "18": {
           "number": "04",
           "title": "A cidade encontra companhia",
-          "intro": "Flores, mesas e retratos dão lugar à presença e ao afeto. O cotidiano ganha outro ritmo quando é possível descansar, conversar e ocupar os espaços em companhia."
-        },
-        "22": {
-          "number": "05",
-          "title": "Atravessar para continuar",
-          "intro": "Pontes, pessoas e ônibus levam o olhar da rua às margens. Cada travessia conecta rotinas e lembra que alcançar os lugares faz parte do direito de viver a cidade."
+          "intro": "Uma mesa na calçada muda o tempo da rua. Entre flores, retratos e conversas, aparece o direito de ficar um pouco."
         },
         "24": {
+          "number": "05",
+          "title": "Atravessar para continuar",
+          "intro": "A ponte liga margens e rotinas. Olhar para quem cruza a rua e o rio também faz perguntar quem tem condições de atravessar com segurança."
+        },
+        "26": {
           "number": "06",
           "title": "Chegar perto da água",
-          "intro": "O mangue, as raízes e os encontros junto ao Capibaribe aproximam o olhar da água. Entre o que cresce e quem permanece, a paisagem apresenta outras formas de continuidade."
+          "intro": "A escala muda junto à água. O olhar passa dos galhos e das raízes do mangue às pessoas que encontram no píer um lugar para ficar."
         },
-        "28": {
+        "30": {
           "number": "07",
           "title": "O rio continua em movimento",
-          "intro": "A canoa, a rede e os remos encerram o percurso com ações em curso. O Recife continua sendo feito por quem trabalha, atravessa e encontra maneiras de viver o rio."
+          "intro": "A rede, os remos e o motor marcam ritmos diferentes no mesmo trecho de rio. Na última imagem, a canoa já está de lado, pronta para seguir."
         }
       },
-      "closing": "A última fotografia encontra o trabalho ainda acontecendo. Chegar ao Recife vivo é reconhecer quem sustenta essa continuidade e precisa ter lugar nela: na moradia, no cuidado, na cultura, nas ruas e nas margens. A arte oferece encontros e novas formas de olhar; a permanência exige também condições concretas para viver. O rio leva o percurso adiante."
+      "closing": "Na última foto, o trabalho continua dentro da canoa. As cores do Recife Vivo acompanham quem sustenta a cidade todos os dias. Ter lugar nela passa por poder morar, trabalhar, descansar e criar onde a vida acontece."
     }
   ],
   "shortFilm": {
@@ -1029,25 +1029,25 @@ window.RECIFE_DATA = {
   "urbanReadings": [
     {
       "file": "DSC05689.jpg",
-      "caption": "A floricultura ocupa uma fachada ao lado de um sobrado marcado pelo desgaste. O comércio e os diferentes usos do imóvel abrem a pergunta sobre quem consegue permanecer no Centro.",
+      "caption": "A floricultura e o sobrado vizinho mostram usos distintos na mesma rua. Quem consegue manter um comércio no Centro quando a valorização muda o custo de ficar?",
       "contextLink": "#estudos-recife",
       "contextLabel": "Patrimônio, usos e transformação do Centro"
     },
     {
       "file": "DSC05813.jpg",
-      "caption": "Anúncios de crédito e reivindicações sobre trabalho e educação dividem a coluna. A parede aproxima o cotidiano das perguntas sobre renda e acesso à cidade.",
+      "caption": "Na coluna, anúncios de empréstimo convivem com cartazes sobre trabalho e educação. A proximidade mostra como o acesso à cidade esbarra nas contas de todo dia.",
       "contextLink": "#barreiras-acesso",
       "contextLabel": "O custo de morar, trabalhar e frequentar"
     },
     {
       "file": "DSC05808.jpg",
-      "caption": "Fiação, árvores e edifícios de alturas diferentes compõem a paisagem. Os estudos ajudam a discutir como investimentos e transformações urbanas distribuem espaço e oportunidades.",
+      "caption": "Dos fios à altura dos prédios, a vista junta diferentes escalas da cidade. Ela abre espaço para perguntar como o investimento muda quem tem acesso a esses lugares.",
       "contextLink": "#estudos-recife",
       "contextLabel": "Investimento, paisagem e permanência"
     }
   ],
   "cinemaMemory": {
-    "intro": "Uma fotografia de 1961 e a fachada registrada em 2026 aproximam dois tempos da vida cultural do Centro. O antigo Trianon entra no Recife vivo junto aos sebos: a sala encerrou suas sessões, enquanto livros, discos e filmes continuam encontrando público nas bancas. A fotografia em preto e branco participa dessa leitura de resistência cultural pela atividade que permanece ao redor do cinema.",
+    "intro": "Em 1961, uma faixa de festival atravessava a fachada do Trianon. Em 2026, livros e filmes ocupam as bancas sob a marquise. Vistas juntas, as duas fotografias mostram como um endereço do cinema segue fazendo parte da vida cultural do Centro.",
     "past": "O Trianon integrou o circuito de cinemas de rua da Avenida Guararapes e encerrou suas sessões. Em 2025, o local recebeu uma placa de memória dos cinemas da cidade.",
     "pastSource": {
       "url": "https://recentro.recife.pe.gov.br/roteiro-dos-lugares-afetivos-dos-cinemas-de-rua-celebra-a-memoria-cinematografica-do-recife/",

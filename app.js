@@ -22,6 +22,7 @@
   const chapterNav = document.getElementById('essay-chapters');
   if (chapterNav) {
     chapterNav.innerHTML = movements.map((movement, index) => {
+      if (movement.photoCount === 0) return '';
       const label = movement.number ? movement.number + ' · ' + movement.title : movement.title;
       return '<a href="#' + escape(movementId(movement, index)) + '">' + escape(label) + '</a>';
     }).join('');
@@ -74,8 +75,9 @@
   }
   let photoOffset = 0;
   document.getElementById('movements').innerHTML = movements.map((movement, groupIndex) => {
+    if (movement.photoCount === 0) return '';
     const firstPhoto = photoOffset;
-    const movementPhotos = photos.slice(firstPhoto, firstPhoto + (movement.photoCount || 4));
+    const movementPhotos = photos.slice(firstPhoto, firstPhoto + (movement.photoCount ?? 4));
     photoOffset += movementPhotos.length;
     const cards = movementPhotos.map((photo, j) => {
       const index = firstPhoto + j;

@@ -12,7 +12,7 @@ Um ensaio fotográfico e poético em 49 fotografias autorais, com linguagem grá
 
 O ensaio reúne 49 fotografias autorais: 29 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 18 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
 
-Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 30 fotografias: 29 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também em preto e branco, integra o interlúdio Recife Esquecido. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
+Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 32 fotografias: 31 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também em preto e branco, integra o interlúdio Recife Esquecido. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
 
 ## Música e leitura
 
@@ -34,7 +34,7 @@ Os créditos e direitos das fotos estão em `assets/credits.json` e no próprio 
 
 ## Recife vivo e identidade visual
 
-O quinto movimento reúne 30 fotografias, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela o tratamento original das fotos do Recife Vivo; permite rever a apresentação em preto e branco. A fachada do Trianon e o registro de acervo mantêm a monocromia. A preferência Cores originais dispensa essa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
+O quinto movimento reúne 32 fotografias, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela o tratamento original das fotos do Recife Vivo; permite rever a apresentação em preto e branco. A fachada do Trianon e o registro de acervo mantêm a monocromia. A preferência Cores originais dispensa essa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
 
 O refinamento visual e os controles de acesso estão em `enhancements.css` e `enhancements.js`. O painel oferece texto maior, contraste reforçado, retirada de texturas, redução de movimento, cores originais e fonte simples. As preferências são salvas somente no navegador. A leitura tem controles de pausa, retomada e parada.
 
@@ -79,7 +79,7 @@ A fotografia de arquivo está em `assets/acervo/trianon-1961-mario-de-carvalho.j
 
 ## Seleção e percurso visual
 
-A seleção reúne 49 fotografias do acervo do projeto. Os cinco movimentos têm 8, 4, 2, 2 e 30 imagens. Entre o quarto e o quinto, o interlúdio Recife Esquecido reúne três fotografias. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
+A seleção reúne 49 fotografias do acervo do projeto. O Recife Sujo reúne 14 fotos em três capítulos. O Recife Esquecido reúne três fotos, e o Recife Vivo reúne 32. As duas fotos do São Luiz e do CENA abrem a passagem dedicada à criação no Recife Vivo. O quarto movimento permanece no cordel. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
 
 As fotografias semelhantes foram comparadas pelo enquadramento, pelo gesto e pela função na narrativa. A galeria preserva DSC05914 para a passagem sob a marquise, DSC05867 para a frente do rio, DSC05879 para a banca de frutas e DSC05923 para a convivência entre edifícios. DSC05915, DSC05872, DSC05880, DSC05883, DSC05926 e DSC05754 ficam em reserva.
 
@@ -95,7 +95,7 @@ O crédito Samir foi atualizado para Samico por orientação do projeto. Samico 
 
 Seu João foi identificado pela autoria nas fotografias DSC05896 e DSC05906. As duas imagens recebem apresentação ampliada em toda a largura da galeria. A identificação não se estende a outras pessoas fotografadas.
 
-As cinco sextilhas foram revistas para dialogar com a memória cotidiana de Manuel Bandeira, o Capibaribe e o trabalho em João Cabral de Melo Neto e o encontro de linguagens de Antônio Nóbrega. São versos originais do projeto, sem reprodução ou atribuição de poemas desses artistas. As fontes institucionais estão na seção Referências.
+As cinco sextilhas são versos originais do projeto. O cordel reúne a xilogravura de J. Borges, as fotografias de Samico, frança e Mário de Carvalho, o manguebeat de Chico Science e Nação Zumbi, as estações de Reginaldo Rossi, a Rua da União de Manuel Bandeira, o cinema de Kleber Mendonça Filho, a rabeca de Antônio Nóbrega, o baião de Luiz Gonzaga e o rio de João Cabral de Melo Neto. As referências e os créditos estão no site.
 
 Os textos de apresentação, os cinco movimentos e as 47 legendas foram desenvolvidos. As legendas de localização exibem o recorte geográfico sustentado; os dados de confiança permanecem no arquivo para pesquisa, sem rótulos de identificação pendente na experiência de leitura.
 
