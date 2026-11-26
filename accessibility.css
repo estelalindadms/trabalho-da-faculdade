@@ -57,3 +57,7 @@
 .text-reading footer{margin-top:45px;border-top:3px solid #465c47;padding:26px 0 45px}
 @media(max-width:480px){.text-reading{padding:20px 6%;font-size:18px}.text-reading h2{font-size:26px}.text-reading h3{font-size:22px}.text-reading .text-stanza{font-size:21px}}
 @media print{.text-reading{padding:10mm;font-size:12pt;background:white;color:black}.text-reading nav{display:none}.text-reading a{color:black}.text-reading main>section{break-before:auto}}
+.text-reading .text-music{margin:24px 0;padding:16px;border:1px solid #83907e}
+.text-reading .text-music p{margin:0 0 12px}
+.text-reading .text-music audio{display:block;width:100%;max-width:420px;min-height:48px}
+@media print{.text-reading .text-music audio{display:none}}

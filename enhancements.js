@@ -14,6 +14,7 @@
   const alive = document.querySelector('.movement[data-alive="true"]');
   let aliveRevealed = false;
   let aliveButton = null;
+  let aliveContinue = null;
   let aliveHelp = null;
   let aliveStatus = null;
   if (alive) {
@@ -25,10 +26,11 @@
     bridge.innerHTML = '<img class="alive-bridge-art" src="assets/linha-matriz.svg" alt="" aria-hidden="true"><div class="alive-bridge-content"><div><p class="eyebrow">DA FERIDA AO PULSO</p><h2>O Recife resiste<br><em>em quem fica.</em></h2></div><div class="alive-bridge-copy"><p>O Recife continua nas mãos que trabalham, nas conversas de calçada e nos livros, discos e filmes que passam de uma pessoa a outra. A arte ocupa paredes e prateleiras; o encontro transforma a rua em lugar de convivência. Entre o concreto e a água, esses gestos mantêm a cidade em movimento.</p><p>Há vida junto às feridas que este percurso mostrou. Reconhecê-la também é defender o direito de morar, trabalhar, criar e permanecer no centro. As cores acompanham quem sustenta esse cotidiano: gente que merece condições para viver a cidade, além de resistir às suas dificuldades.</p></div></div>';
     const controls = document.createElement('div');
     controls.className = 'alive-controls';
-    controls.innerHTML = '<button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo" aria-describedby="alive-help"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><p id="alive-help" class="alive-help">Ative o botão para revelar o tratamento original das fotografias. A fachada do Trianon e a imagem histórica permanecem em preto e branco.</p><p id="alive-status" class="alive-status" role="status" aria-live="polite" aria-atomic="true"></p>';
+    controls.innerHTML = '<button id="alive-reveal" class="alive-button" type="button" aria-pressed="false" aria-controls="recife-vivo" aria-describedby="alive-help"><span>Devolver a cor</span><span aria-hidden="true">↗</span></button><button id="alive-continue" class="alive-button" type="button" hidden>Entrar no Recife Vivo <span aria-hidden="true">↓</span></button><p id="alive-help" class="alive-help">Ative o botão para revelar o tratamento original das fotografias. A fachada do Trianon e a imagem histórica permanecem em preto e branco.</p><p id="alive-status" class="alive-status" role="status" aria-live="polite" aria-atomic="true"></p>';
     bridge.querySelector('.alive-bridge-copy').append(controls);
     alive.prepend(bridge);
     aliveButton = controls.querySelector('#alive-reveal');
+    aliveContinue = controls.querySelector('#alive-continue');
     aliveHelp = controls.querySelector('#alive-help');
     aliveStatus = controls.querySelector('#alive-status');
     aliveButton.addEventListener('click', () => {
@@ -42,11 +44,13 @@
     const originalColors = !!prefs.colors;
     const revealed = aliveRevealed || originalColors;
     alive.classList.toggle('alive-revealed', revealed);
+    aliveButton.hidden = originalColors;
     aliveButton.disabled = originalColors;
+    aliveContinue.hidden = !originalColors;
     aliveButton.setAttribute('aria-pressed', String(revealed));
     aliveButton.querySelector('span').textContent = originalColors ? 'Cores originais ativadas' : revealed ? 'Rever em preto e branco' : 'Devolver a cor';
     aliveHelp.textContent = originalColors
-      ? 'A preferência “Cores originais” mantém o tratamento de cada fotografia, em cor ou preto e branco. Desative essa opção em Acessibilidade para usar este botão.'
+      ? 'A preferência “Cores originais” mantém o tratamento de cada fotografia, em cor ou preto e branco. Use o botão para seguir para as fotografias.'
       : revealed
         ? 'As fotografias exibem seu tratamento original. O Trianon permanece em preto e branco. O botão permite rever a apresentação monocromática.'
         : 'Ative o botão para revelar o tratamento original das fotografias. A fachada do Trianon e a imagem histórica permanecem em preto e branco.';
@@ -131,7 +135,6 @@
     video.src = film.src;
     video.poster = film.poster || 'assets/curta-poster.svg';
     video.hidden = false;
-    document.getElementById('film-placeholder').hidden = true;
     if (film.captionsSrc) {
       const track = document.createElement('track');
       track.kind = 'captions'; track.label = 'Português'; track.srclang = 'pt-BR'; track.src = film.captionsSrc; track.default = true;
@@ -167,9 +170,15 @@
     if (film.signLanguageSrc) available.push('interpretação em Libras');
     document.querySelector('.film-access-note').textContent = available.length ? 'Recursos disponíveis: ' + available.join(', ') + '.' : 'Curta disponível. Os recursos de acesso serão indicados quando seus arquivos forem adicionados.';
     document.querySelector('.production-label').textContent = 'CURTA DA EQUIPE';
-    video.addEventListener('play', () => {
-      document.getElementById('background-music').pause();
-      if (!document.getElementById('reading-stop').hidden) document.getElementById('reading-stop').click();
-    });
   }
+  const filmVideos = document.querySelectorAll('#curta video');
+  filmVideos.forEach(currentVideo => {
+    currentVideo.addEventListener('play', () => {
+      document.dispatchEvent(new Event('recife:pause-music'));
+      if (!document.getElementById('reading-stop').hidden) document.getElementById('reading-stop').click();
+      filmVideos.forEach(otherVideo => {
+        if (otherVideo !== currentVideo) otherVideo.pause();
+      });
+    });
+  });
 })();

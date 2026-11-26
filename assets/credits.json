@@ -1,5 +1,5 @@
 {
-  "notice": "47 fotografias autorais: 27 de Samico e 20 de frança. O percurso tem cinco movimentos e o interlúdio Recife Esquecido, que reúne três fotografias antes do Recife Vivo. O Recife vivo reúne 27 fotografias coloridas e uma em preto e branco: a fachada do Trianon, junto à vida dos sebos. São 31 registros de 5 de novembro e 16 de 11 de novembro de 2026, com datas informadas pela autoria. Seu João foi identificado pelo projeto nas fotografias DSC05896 e DSC05906. A fotografia histórica de 1961, de Mário de Carvalho, permanece separada do conjunto autoral.",
+  "notice": "49 fotografias autorais: 29 de Samico e 20 de frança. O percurso tem cinco movimentos e o interlúdio Recife Esquecido, que reúne três fotografias antes do Recife Vivo. O Recife vivo reúne 29 fotografias coloridas e uma em preto e branco: a fachada do Trianon, junto à vida dos sebos. São 31 registros de 5 de novembro e 18 de 11 de novembro de 2026, com datas confirmadas pela autoria. Seu João foi identificado pelo projeto nas fotografias DSC05896 e DSC05906. A fotografia histórica de 1961, de Mário de Carvalho, permanece separada do conjunto autoral.",
   "displayTreatment": "Apresentação monocromática com botão Devolver a cor no Recife Vivo, que revela o tratamento original das fotografias. A fachada do Trianon e a fotografia histórica permanecem em preto e branco. A preferência Cores originais dispensa a transição. Ampliação e arquivos preservam o enquadramento e o tratamento fornecidos.",
   "images": [
     {
@@ -396,6 +396,40 @@
       "license": "Direitos da pessoa autora",
       "modifications": "Versão redimensionada e comprimida para a web. Enquadramento completo e tratamento fornecido preservados. O botão do Recife Vivo revela o tratamento original: fotografias em cor e registros em preto e branco.",
       "featured": true
+    },
+    {
+      "title": "Entre os carros",
+      "alt": "Homem de chapéu roxo e camiseta listrada segura garrafas de água e sacos de lanches entre carros e motos.",
+      "caption": "O vendedor leva água e lanches por entre os carros. Depois das bancas da feira, o comércio de rua aparece no espaço que se abre entre os veículos.",
+      "originalFile": "DSC05695.jpg",
+      "src": "assets/autorais/DSC05695.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação informada pela pessoa usuária: 11 de novembro de 2026.",
+      "location": "Recife",
+      "locationConfidence": "Localização específica a confirmar",
+      "locationSourceUrl": "",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web, com enquadramento completo."
+    },
+    {
+      "title": "Quando o sinal abre",
+      "alt": "Visto de costas, um homem carrega sacos de lanches junto à faixa de pedestres. O semáforo está verde e uma moto passa à esquerda.",
+      "caption": "O olhar segue da pista para a calçada. Os sacos de lanches seguem com o vendedor, e o ritmo do trabalho acompanha o vaivém do cruzamento.",
+      "originalFile": "DSC05696.jpg",
+      "src": "assets/autorais/DSC05696.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação informada pela pessoa usuária: 11 de novembro de 2026.",
+      "location": "Recife",
+      "locationConfidence": "Localização específica a confirmar",
+      "locationSourceUrl": "",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web, com enquadramento completo."
     },
     {
       "src": "assets/autorais/DSC05691.jpg",

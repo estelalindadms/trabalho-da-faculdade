@@ -396,6 +396,40 @@ window.RECIFE_DATA = {
       "featured": true
     },
     {
+      "title": "Entre os carros",
+      "alt": "Homem de chapéu roxo e camiseta listrada segura garrafas de água e sacos de lanches entre carros e motos.",
+      "caption": "O vendedor leva água e lanches por entre os carros. Depois das bancas da feira, o comércio de rua aparece no espaço que se abre entre os veículos.",
+      "originalFile": "DSC05695.jpg",
+      "src": "assets/autorais/DSC05695.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação informada pela pessoa usuária: 11 de novembro de 2026.",
+      "location": "Recife",
+      "locationConfidence": "Localização específica a confirmar",
+      "locationSourceUrl": "",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web, com enquadramento completo."
+    },
+    {
+      "title": "Quando o sinal abre",
+      "alt": "Visto de costas, um homem carrega sacos de lanches junto à faixa de pedestres. O semáforo está verde e uma moto passa à esquerda.",
+      "caption": "O olhar segue da pista para a calçada. Os sacos de lanches seguem com o vendedor, e o ritmo do trabalho acompanha o vaivém do cruzamento.",
+      "originalFile": "DSC05696.jpg",
+      "src": "assets/autorais/DSC05696.jpg",
+      "width": 1200,
+      "height": 1600,
+      "author": "Samico",
+      "date": "2026-11-11",
+      "dateSource": "Data de captação informada pela pessoa usuária: 11 de novembro de 2026.",
+      "location": "Recife",
+      "locationConfidence": "Localização específica a confirmar",
+      "locationSourceUrl": "",
+      "license": "Direitos da pessoa autora",
+      "modifications": "Versão redimensionada e comprimida para a web, com enquadramento completo."
+    },
+    {
       "src": "assets/autorais/DSC05691.jpg",
       "originalFile": "DSC05691.jpg",
       "title": "O livreiro entre caminhos",
@@ -924,7 +958,7 @@ window.RECIFE_DATA = {
     {
       "number": "V",
       "title": "Recife vivo",
-      "intro": "Vinte e oito fotografias acompanham a cidade que continua sendo feita: a banca que abre, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.",
+      "intro": "Trinta fotografias acompanham a cidade que continua sendo feita: a banca que abre, o vendedor entre os carros, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.",
       "stanza": [
         "Cada remo risca a água,",
         "Cada rede é profissão.",
@@ -934,39 +968,39 @@ window.RECIFE_DATA = {
         "Quando a vida tem seu chão."
       ],
       "alive": true,
-      "photoCount": 28,
+      "photoCount": 30,
       "sections": {
         "0": {
           "number": "01",
           "title": "O trabalho põe a rua em movimento",
-          "intro": "A banca, as frutas e a feira apresentam o trabalho cotidiano que alimenta a circulação e o sustento. A cor acompanha quem abre caminhos para continuar vivendo da cidade."
+          "intro": "A banca, as frutas, a feira e a venda entre os carros apresentam o trabalho cotidiano que alimenta a circulação e o sustento. A cor acompanha quem abre caminhos para continuar vivendo da cidade."
         },
-        "3": {
+        "5": {
           "number": "02",
           "title": "As histórias encontram público",
           "intro": "Livros, filmes e discos encontram novos públicos. A memória do Trianon se aproxima dos sebos que seguem em atividade: o cinema permanece também nos filmes oferecidos nas bancas. Da marquise ao balcão de Seu João, a cultura continua viva em quem conserva, procura e compartilha as obras."
         },
-        "10": {
+        "12": {
           "number": "03",
           "title": "Criar também é permanecer",
           "intro": "A fotografia, a projeção, a formação em audiovisual e a pintura produzem novas relações com a paisagem. Criar amplia as maneiras de participar da cidade e de imaginar seu futuro."
         },
-        "14": {
+        "16": {
           "number": "04",
           "title": "A cidade encontra companhia",
           "intro": "Flores, mesas e retratos dão lugar à presença e ao afeto. O cotidiano ganha outro ritmo quando é possível descansar, conversar e ocupar os espaços em companhia."
         },
-        "20": {
+        "22": {
           "number": "05",
           "title": "Atravessar para continuar",
           "intro": "Pontes, pessoas e ônibus levam o olhar da rua às margens. Cada travessia conecta rotinas e lembra que alcançar os lugares faz parte do direito de viver a cidade."
         },
-        "22": {
+        "24": {
           "number": "06",
           "title": "Chegar perto da água",
           "intro": "O mangue, as raízes e os encontros junto ao Capibaribe aproximam o olhar da água. Entre o que cresce e quem permanece, a paisagem apresenta outras formas de continuidade."
         },
-        "26": {
+        "28": {
           "number": "07",
           "title": "O rio continua em movimento",
           "intro": "A canoa, a rede e os remos encerram o percurso com ações em curso. O Recife continua sendo feito por quem trabalha, atravessa e encontra maneiras de viver o rio."

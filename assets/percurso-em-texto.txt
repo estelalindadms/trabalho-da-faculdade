@@ -2,7 +2,7 @@ O RECIFE SUJO — E O RECIFE QUE PULSA
 
 PERCURSO INTEGRAL EM TEXTO
 
-47 fotografias: 27 de Samico e 20 de frança. Datas: 5 e 11 de novembro de 2026.
+49 fotografias: 29 de Samico e 20 de frança. Datas confirmadas: 5 e 11 de novembro de 2026.
 
 Descrições visuais objetivas e leitura poética do projeto aparecem separadamente.
 
@@ -234,7 +234,7 @@ A vida que o próximo capítulo acompanha já está aqui, nos trajetos e nas pau
 
 V · Recife vivo
 
-Vinte e oito fotografias acompanham a cidade que continua sendo feita: a banca que abre, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.
+Trinta fotografias acompanham a cidade que continua sendo feita: a banca que abre, o vendedor entre os carros, o livro que muda de mãos, os sebos junto ao antigo Trianon, Seu João entre discos, as mesas na rua e a chegada ao Capibaribe. A fotografia em preto e branco do cinema integra esse Recife vivo pela continuidade da arte nas bancas e nos encontros. A sobrevivência aparece em gestos de trabalho, criação e convivência, até o rio em atividade.
 
 
 
@@ -268,7 +268,25 @@ Samico · 05/11/2026 · São José · Recife
 
 
 
-23 · O livreiro entre caminhos
+23 · Entre os carros
+
+Descrição visual: Homem de chapéu roxo e camiseta listrada segura garrafas de água e sacos de lanches entre carros e motos.
+
+Leitura do projeto: O vendedor leva água e lanches por entre os carros. Depois das bancas da feira, o comércio de rua aparece no espaço que se abre entre os veículos.
+
+Crédito: Samico · 11/11/2026 · Recife
+
+
+24 · Quando o sinal abre
+
+Descrição visual: Visto de costas, um homem carrega sacos de lanches junto à faixa de pedestres. O semáforo está verde e uma moto passa à esquerda.
+
+Leitura do projeto: O olhar segue da pista para a calçada. Os sacos de lanches seguem com o vendedor, e o ritmo do trabalho acompanha o vaivém do cruzamento.
+
+Crédito: Samico · 11/11/2026 · Recife
+
+
+25 · O livreiro entre caminhos
 
 Descrição visual: Pessoa de boné diante de livros expostos em uma banca, junto a uma estrutura de telhas e uma placa parcial de estacionamento.
 
@@ -278,7 +296,7 @@ frança · 05/11/2026 · Centro do Recife
 
 
 
-24 · Morada de papel
+26 · Morada de papel
 
 Descrição visual: Entrada de um sebo com pilhas de livros, revistas e apostilas, prateleiras e um pequeno corredor central.
 
@@ -288,7 +306,7 @@ frança · 05/11/2026 · Centro do Recife
 
 
 
-25 · Sob a marquise, a vida
+27 · Sob a marquise, a vida
 
 Descrição visual: Fachada com grandes pilares e uma marquise, com livros e outros produtos expostos na calçada e pessoas junto às bancas.
 
@@ -354,7 +372,7 @@ Dos livros à marquise, das capas de filmes ao balcão de Seu João, esta passag
 
 
 
-26 · A tela mora na calçada
+28 · A tela mora na calçada
 
 Descrição visual: Pilhas de DVDs e CDs à venda junto a uma porta metálica, com livros e pequenos enfeites expostos.
 
@@ -364,7 +382,7 @@ frança · 05/11/2026 · Centro do Recife · entorno da Avenida Guararapes
 
 
 
-27 · A porta tem som
+29 · A porta tem som
 
 Descrição visual: Porta de vidro com cartazes de rock, uma imagem de perfil com um réptil sobre a cabeça, anúncios e pequenos impressos musicais.
 
@@ -374,7 +392,7 @@ Samico · 11/11/2026 · Centro do Recife
 
 
 
-28 · Seu João, guardião de encontros
+30 · Seu João, guardião de encontros
 
 Descrição visual: Seu João organiza discos no balcão de uma loja, cercado por capas de CDs, cartazes e imagens de músicos.
 
@@ -384,7 +402,7 @@ frança · 11/11/2026 · Centro do Recife
 
 
 
-29 · O sorriso de Seu João
+31 · O sorriso de Seu João
 
 Descrição visual: Seu João sorri e ergue uma das mãos, atrás do balcão de uma loja de discos com estantes de CDs ao fundo.
 
@@ -394,7 +412,7 @@ frança · 11/11/2026 · Centro do Recife
 
 
 
-30 · Um olhar dentro do outro
+32 · Um olhar dentro do outro
 
 Descrição visual: Uma pessoa fotografa outra no corredor da Casa da Cultura, sob uma bandeira de cinquenta anos do espaço.
 
@@ -404,7 +422,7 @@ frança · 05/11/2026 · Casa da Cultura de Pernambuco, Rua Floriano Peixoto, 95
 
 
 
-31 · A memória gira
+33 · A memória gira
 
 Descrição visual: Rolos de película e mecanismo de projeção ocupam uma sala com outros equipamentos de cinema.
 
@@ -414,7 +432,7 @@ frança · 05/11/2026 · Recife · memória da projeção cinematográfica
 
 
 
-32 · A rua aprende a sonhar
+34 · A rua aprende a sonhar
 
 Descrição visual: Pessoa com um cachorro diante de fachada colorida com o nome Aurora Filmes, uma película e uma claquete pintadas.
 
@@ -424,7 +442,7 @@ Samico · 05/11/2026 · Aurora Filmes, Rua da Aurora, 987, Santo Amaro.
 
 
 
-33 · O canto sobe o concreto
+35 · O canto sobe o concreto
 
 Descrição visual: Prédio da Prefeitura do Recife com grande mural de Luiz Gonzaga tocando sanfona na lateral, acima das árvores.
 
@@ -434,7 +452,7 @@ frança · 05/11/2026 · Mural na Prefeitura do Recife · Cais do Apolo
 
 
 
-34 · Primavera de balcão
+36 · Primavera de balcão
 
 Descrição visual: Flores coloridas e pequenos arranjos ocupam prateleiras e expositores na entrada de uma floricultura.
 
@@ -444,7 +462,7 @@ frança · 05/11/2026 · Floricultura Pernambucana · Recife
 
 
 
-35 · A conversa ocupa a rua
+37 · A conversa ocupa a rua
 
 Descrição visual: Rua estreita de pedras entre edifícios, com bares, mesas e cadeiras plásticas, pessoas sentadas e vasos com plantas ao longo da passagem.
 
@@ -454,7 +472,7 @@ Samico · 11/11/2026 · Centro do Recife
 
 
 
-36 · O tempo senta à mesa
+38 · O tempo senta à mesa
 
 Descrição visual: Pessoa de cabelos brancos sentada em uma cadeira, segurando os óculos junto ao peito, ao lado de uma mesa branca com uma garrafa de água.
 
@@ -464,7 +482,7 @@ Samico · 11/11/2026 · Centro do Recife
 
 
 
-37 · Brinde ao azul
+39 · Brinde ao azul
 
 Descrição visual: Duas pessoas posam sentadas a uma mesa vermelha com copos e bebidas diante de uma parede azul; uma faz um sinal de positivo e outra ergue o dedo médio.
 
@@ -474,7 +492,7 @@ frança · 05/11/2026 · Centro do Recife
 
 
 
-38 · Nós, na cor da rua
+40 · Nós, na cor da rua
 
 Descrição visual: Duas pessoas posam diante de um mural colorido com um grande rosto de chapéu e uma fileira de casas pintadas.
 
@@ -484,7 +502,7 @@ Samico · 05/11/2026 · Centro do Recife
 
 
 
-39 · O passo é coletivo
+41 · O passo é coletivo
 
 Descrição visual: Pessoas atravessam uma via, incluindo uma pessoa em cadeira de rodas acompanhada por outra; há carros, ônibus, árvores e uma fachada com inscrições ao fundo.
 
@@ -494,7 +512,7 @@ Samico · 05/11/2026 · Centro do Recife
 
 
 
-40 · A cidade atravessa
+42 · A cidade atravessa
 
 Descrição visual: Ponte de concreto com lateral vermelha sobre o Capibaribe, com ônibus e pedestres, margem baixa em primeiro plano e uma cúpula entre os telhados ao fundo.
 
@@ -504,7 +522,7 @@ Samico · 11/11/2026 · Rio Capibaribe · Centro do Recife
 
 
 
-41 · A pressa atravessa o rio
+43 · A pressa atravessa o rio
 
 Descrição visual: Pessoas caminham na calçada de uma ponte, diante de ônibus e edifícios. O letreiro do Cinema São Luiz aparece à esquerda.
 
@@ -514,7 +532,7 @@ Samico · 05/11/2026 · Ponte Duarte Coelho, voltada para a Avenida Conde da Boa
 
 
 
-42 · O verde guarda a água
+44 · O verde guarda a água
 
 Descrição visual: Vegetação densa e raízes junto a um trecho de água com reflexos, em uma imagem vertical do mangue.
 
@@ -524,7 +542,7 @@ Samico · 05/11/2026 · Mangue · Recife
 
 
 
-43 · A lama inventa raízes
+45 · A lama inventa raízes
 
 Descrição visual: Raízes e pequenas plantas emergem do solo lodoso entre troncos, galhos e manchas de luz.
 
@@ -534,7 +552,7 @@ Samico · 05/11/2026 · Mangue às margens do Capibaribe · Recife
 
 
 
-44 · O rio ainda reúne
+46 · O rio ainda reúne
 
 Descrição visual: Pessoas sentadas e em pé na ponta de um píer no Capibaribe, com vegetação e o prédio da Prefeitura com mural ao fundo.
 
@@ -544,7 +562,7 @@ Samico · 05/11/2026 · Rio Capibaribe · vista para a Prefeitura do Recife
 
 
 
-45 · Onde a margem abraça
+47 · Onde a margem abraça
 
 Descrição visual: Pessoas sentadas e em pé em um píer de madeira, cercado por vegetação nas margens de um rio.
 
@@ -554,7 +572,7 @@ Samico · 05/11/2026 · Rio Capibaribe · Recife
 
 
 
-46 · O rio continua ocupado
+48 · O rio continua ocupado
 
 Descrição visual: Pessoa com chapéu organizando uma rede em uma canoa vermelha, com duas pequenas embarcações a remo atrás e uma ponte verde-azulada na parte superior da imagem.
 
@@ -564,7 +582,7 @@ frança · 11/11/2026 · Rio Capibaribe · Centro do Recife
 
 
 
-47 · Até aqui, seguimos
+49 · Até aqui, seguimos
 
 Descrição visual: Canoa vermelha vista de lado, com uma pessoa inclinada em seu interior, motor na ponta e a inscrição Até aqui nos ajudou o Senhor na lateral; uma pequena embarcação a remo aparece ao fundo.
 
@@ -836,9 +854,21 @@ As três fotografias desta leitura urbana foram produzidas em 5 de novembro de 2
 
 SOM E CURTA
 
-Trilha instrumental sem letra ou fala, usada como ambientação; nenhuma informação depende exclusivamente do som.
+Cada Recife tem um trecho musical curto, em volume baixo.
 
-O curta ainda está em produção. Legendas descritivas, transcrição, audiodescrição e Libras devem corresponder à montagem final.
+Recife Sujo · A Cidade · Chico Science & Nação Zumbi.
+Trecho 1:18,6–1:40,4. O primeiro refrão põe em palavras a desigualdade que as fotos sugerem. A batida segue sozinha antes da próxima estrofe.
+https://www.youtube.com/watch?v=WVT1XskxUZk
+
+Recife Esquecido · As Quatro Estações · Reginaldo Rossi.
+Trecho 0:08–0:34. O tom melancólico da abertura acompanha as cenas de passagem e espera no Centro.
+https://www.youtube.com/watch?v=uiuHLqdambI
+
+Recife Vivo · Coco Dub (Afrociberdelia) · Chico Science & Nação Zumbi.
+Trecho 0:24–0:50. O trecho em que a batida ganha corpo acompanha a chegada da cor e o movimento das ruas.
+https://www.youtube.com/watch?v=d4uNOo4OWa4
+
+O trailer de O que ainda pulsa está disponível na seção do curta do site. A montagem final está em produção.
 
 
 

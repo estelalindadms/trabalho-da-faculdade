@@ -115,6 +115,7 @@
   function showPhoto(index) {
     stopPhotoReading();
     stopReading();
+    pauseMusic();
     photoSpeechStatus.textContent = '';
     currentPhoto = (index + photos.length) % photos.length;
     const photo = photos[currentPhoto];
@@ -140,8 +141,28 @@
   });
   const audio = document.getElementById('background-music');
   const musicToggle = document.getElementById('music-toggle');
+  const musicChapter = document.getElementById('music-chapter');
+  const musicState = document.getElementById('sound-state');
+  const musicTime = document.getElementById('music-time');
   const volume = document.getElementById('volume');
+  const tracks = [
+    { src:'assets/audio/recife-sujo.mp3', title:'A Cidade · Chico Science & Nação Zumbi', loop:true },
+    { src:'assets/audio/recife-esquecido.mp3?v=20261125-2', title:'As Quatro Estações · Reginaldo Rossi' },
+    { src:'assets/audio/recife-vivo.mp3?v=20261125-2', title:'Coco Dub (Afrociberdelia) · Chico Science & Nação Zumbi' }
+  ];
+  const forgotten = document.getElementById('recife-esquecido');
+  const aliveSection = document.getElementById('recife-vivo');
+  const alive = aliveSection.querySelector('.movement-header');
+  let track;
+  let musicMode = 'off';
+  let routeMusicMode = 'off';
+  let playingMusic = false;
+  let musicEnded = false;
+  let enteringAlive = false;
+  let musicFrame;
+  let musicRequest = 0;
   const stopButton = document.getElementById('reading-stop');
+  const readingMusic = document.getElementById('reading-with-music');
   const toast = document.getElementById('toast');
   const synth = window.speechSynthesis;
   const canSpeak = !!synth && typeof SpeechSynthesisUtterance !== 'undefined';
@@ -159,33 +180,141 @@
   const photoSpeechStop = document.getElementById('photo-speech-stop');
   const photoSpeechStatus = document.getElementById('photo-speech-status');
   let timer;
-  audio.volume = Number(volume.value) / 100;
   function notify(message) {
     toast.textContent = message;
     toast.classList.add('visible');
     clearTimeout(timer);
     timer = setTimeout(() => toast.classList.remove('visible'), 6000);
   }
-  function musicUI() {
-    const playing = !audio.paused;
-    document.body.classList.toggle('is-playing', playing);
-    musicToggle.setAttribute('aria-pressed', String(playing));
-    musicToggle.querySelector('span').textContent = playing ? 'Ⅱ' : '▶';
-    musicToggle.setAttribute('aria-label', playing ? 'Pausar música de fundo' : 'Tocar música de fundo');
-    document.getElementById('sound-state').textContent = playing ? 'Trilha tocando' : 'Trilha pausada';
+  function wantsMusic() {
+    return musicMode === 'manual' || (musicMode === 'reading' && reading && !readingPaused);
   }
-  async function playMusic() {
-    try { await audio.play(); } catch { notify('Toque no botão de música para iniciar a trilha.'); }
+  function musicUI(message) {
+    const requested = wantsMusic() && !musicEnded;
+    document.body.classList.toggle('is-playing', playingMusic);
+    musicToggle.setAttribute('aria-pressed', String(requested));
+    musicToggle.querySelector('span').textContent = requested ? 'Ⅱ' : '▶';
+    musicToggle.setAttribute('aria-label', requested ? 'Pausar a trilha' : musicEnded ? 'Repetir o trecho' : 'Tocar a trilha');
+    const status = playingMusic ? 'Trilha tocando' : requested ? 'Carregando trilha' : 'Trilha pausada';
+    musicState.textContent = message || (musicEnded ? 'Trecho concluído' : status);
   }
-  musicToggle.addEventListener('click', () => { if (audio.paused) playMusic(); else audio.pause(); });
-  audio.addEventListener('play', musicUI);
-  audio.addEventListener('pause', musicUI);
-  audio.addEventListener('error', () => notify('A trilha não carregou. Tente atualizar a página.'));
-  audio.addEventListener('timeupdate', () => {
+  function updateMusicVolume() {
+    const readingGain = reading && !readingPaused ? .25 : 1;
+    audio.volume = Number(volume.value) / 100 * readingGain;
+  }
+  function updateMusicTime() {
     const seconds = Math.floor(audio.currentTime || 0);
-    document.getElementById('music-time').textContent = Math.floor(seconds / 60) + ':' + pad(seconds % 60);
+    musicTime.textContent = Math.floor(seconds / 60) + ':' + pad(seconds % 60);
+  }
+  function pausePlayback() {
+    musicRequest++;
+    playingMusic = false;
+    audio.pause();
+    musicUI();
+  }
+  function pauseMusic() {
+    routeMusicMode = 'off';
+    musicMode = 'off';
+    pausePlayback();
+  }
+  function playbackError(message) {
+    if (!wantsMusic()) return;
+    pauseMusic();
+    musicUI(message);
+  }
+  async function startMusicPlayback() {
+    if (musicEnded) return;
+    const request = ++musicRequest;
+    if (audio.error) audio.load();
+    musicUI();
+    try {
+      await audio.play();
+    } catch (error) {
+      if (request !== musicRequest) return;
+      playbackError(error.name === 'NotAllowedError'
+        ? 'Toque no botão de música para ouvir.'
+        : 'Não foi possível tocar esta faixa.');
+    }
+  }
+  function changeTrack(nextTrack) {
+    if (track === nextTrack) return;
+    track = nextTrack;
+    musicRequest++;
+    playingMusic = false;
+    musicEnded = false;
+    audio.loop = track.loop === true;
+    audio.src = track.src;
+    musicTime.textContent = '0:00';
+    musicChapter.textContent = track.title;
+    if (wantsMusic()) startMusicPlayback();
+    else musicUI();
+  }
+  function syncTrack() {
+    const boundary = innerHeight * .33;
+    const atAlive = alive.getBoundingClientRect().top <= boundary;
+    if (atAlive || aliveSection.getBoundingClientRect().top > innerHeight) enteringAlive = false;
+    changeTrack(atAlive || enteringAlive ? tracks[2] : forgotten.getBoundingClientRect().top <= boundary ? tracks[1] : tracks[0]);
+  }
+  function playMusic(mode = 'manual') {
+    routeMusicMode = 'off';
+    syncTrack();
+    musicMode = mode;
+    musicEnded = false;
+    updateMusicVolume();
+    startMusicPlayback();
+  }
+  musicToggle.addEventListener('click', () => { if (wantsMusic() && !musicEnded) pauseMusic(); else playMusic(); });
+  volume.addEventListener('input', updateMusicVolume);
+  audio.addEventListener('playing', () => {
+    if (!wantsMusic() || audio.paused) return;
+    playingMusic = true;
+    musicUI();
   });
-  volume.addEventListener('input', () => { audio.volume = Number(volume.value) / 100; });
+  audio.addEventListener('pause', () => {
+    if (audio.paused && !audio.ended && playingMusic) pauseMusic();
+  });
+  audio.addEventListener('ended', () => {
+    if (!audio.ended) return;
+    musicEnded = true;
+    playingMusic = false;
+    musicUI();
+  });
+  audio.addEventListener('error', () => playbackError('Não foi possível carregar esta faixa.'));
+  audio.addEventListener('timeupdate', updateMusicTime);
+  document.getElementById('essay-start').addEventListener('click', event => {
+    if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) playMusic();
+  });
+  document.addEventListener('recife:enter-vivo', () => {
+    enteringAlive = true;
+    changeTrack(tracks[2]);
+  });
+  document.addEventListener('recife:pause-music', pauseMusic);
+  document.addEventListener('recife:pause-route', () => {
+    const previousMode = musicMode;
+    pauseMusic();
+    routeMusicMode = previousMode;
+  });
+  document.addEventListener('recife:resume-route', () => {
+    const previousMode = routeMusicMode;
+    routeMusicMode = 'off';
+    if (previousMode === 'off' || (previousMode === 'reading' && !reading)) return;
+    syncTrack();
+    musicMode = previousMode;
+    updateMusicVolume();
+    if (wantsMusic()) startMusicPlayback();
+  });
+  function scheduleTrackUpdate() {
+    if (musicFrame) return;
+    musicFrame = requestAnimationFrame(() => {
+      musicFrame = null;
+      syncTrack();
+    });
+  }
+  window.addEventListener('scroll', scheduleTrackUpdate, {passive:true});
+  window.addEventListener('resize', scheduleTrackUpdate);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) pauseMusic(); });
+  syncTrack();
+  updateMusicVolume();
   function readingUI() {
     const returnFocus = document.activeElement === stopButton || document.activeElement === document.getElementById('reading-pause');
     document.querySelectorAll('.narration-label').forEach(label => { label.textContent = reading ? 'Parar a leitura' : 'Ouvir o cordel'; });
@@ -195,26 +324,34 @@
     document.querySelector('.sound-player').classList.toggle('is-reading', reading);
     if (!reading && returnFocus && readingTrigger) readingTrigger.focus({preventScroll:true});
   }
-  function stopReading() {
+  function finishReading() {
     readingRequest++;
     reading = false;
     readingPaused = false;
-    if (synth) synth.cancel();
     utterance = null;
-    audio.pause();
+    if (musicMode === 'reading') pauseMusic();
+    updateMusicVolume();
     readingUI();
   }
-  document.querySelectorAll('.narration-trigger').forEach(button => button.addEventListener('click', async () => {
+  function stopReading() {
+    finishReading();
+    if (synth) synth.cancel();
+  }
+  function startReadingMusic() {
+    if (musicMode === 'manual') updateMusicVolume();
+    else playMusic('reading');
+  }
+  document.querySelectorAll('.narration-trigger').forEach(button => button.addEventListener('click', () => {
     if (reading) { stopReading(); return; }
     if (!canSpeak) { notify('A leitura em voz não está disponível neste navegador. O poema integral está na seção O cordel e na versão em texto.'); return; }
     stopPhotoReading();
     readingTrigger = button;
     const request = ++readingRequest;
     reading = true;
+    readingPaused = false;
     readingUI();
-    if (document.getElementById('reading-with-music').checked) await playMusic();
-    else audio.pause();
-    if (request !== readingRequest || !reading) { if (!reading) audio.pause(); return; }
+    if (readingMusic.checked) startReadingMusic();
+    else pauseMusic();
     synth.cancel();
     const text = poemMovements.map(movement => movement.stanza.join('. ')).join('. ');
     utterance = new SpeechSynthesisUtterance(text);
@@ -224,37 +361,45 @@
     const voices = synth.getVoices();
     const voice = voices.find(v => v.lang.toLowerCase().replace('_','-') === 'pt-br') || voices.find(v => v.lang.toLowerCase().startsWith('pt'));
     if (voice) utterance.voice = voice;
-    reading = true;
-    readingPaused = false;
     document.getElementById('reading-pause').setAttribute('aria-label', 'Pausar leitura do cordel');
     document.getElementById('reading-pause').setAttribute('aria-pressed', 'false');
     document.getElementById('reading-pause').querySelector('span').textContent = 'Ⅱ';
     readingUI();
-    utterance.onend = () => { if (request !== readingRequest) return; reading = false; readingUI(); notify('A leitura terminou. O poema continua disponível em texto.'); };
+    utterance.onend = () => {
+      if (request !== readingRequest) return;
+      finishReading();
+      notify('A leitura terminou. O poema continua disponível em texto.');
+    };
     utterance.onerror = event => {
       if (request !== readingRequest || !reading || event.error === 'canceled' || event.error === 'interrupted') return;
-      reading = false;
-      readingUI();
+      finishReading();
       notify('A voz de demonstração não está disponível neste navegador. A trilha e o poema continuam acessíveis.');
     };
     synth.resume();
     synth.speak(utterance);
-    notify(document.getElementById('reading-with-music').checked ? 'Leitura automática do cordel com música de fundo. O texto integral está na página.' : 'Leitura automática do cordel sem música de fundo. O texto integral está na página.');
+    notify(readingMusic.checked ? 'Leitura automática do cordel com música de fundo. O texto integral está na página.' : 'Leitura automática do cordel sem música de fundo. O texto integral está na página.');
   }));
   document.getElementById('reading-pause').addEventListener('click', () => {
     if (!reading || !synth) return;
     readingPaused = !readingPaused;
-    if (readingPaused) { synth.pause(); audio.pause(); } else { synth.resume(); if (document.getElementById('reading-with-music').checked) playMusic(); }
+    updateMusicVolume();
+    if (readingPaused) {
+      synth.pause();
+      if (musicMode === 'reading') pausePlayback();
+    } else {
+      synth.resume();
+      if (musicMode === 'reading') startMusicPlayback();
+    }
     const button = document.getElementById('reading-pause');
     button.setAttribute('aria-label', readingPaused ? 'Continuar leitura do cordel' : 'Pausar leitura do cordel');
     button.setAttribute('aria-pressed', String(readingPaused));
     button.querySelector('span').textContent = readingPaused ? '▶' : 'Ⅱ';
   });
   stopButton.addEventListener('click', stopReading);
-  document.getElementById('reading-with-music').addEventListener('change', event => {
+  readingMusic.addEventListener('change', () => {
     if (!reading) return;
-    if (!readingPaused && event.target.checked) playMusic();
-    else audio.pause();
+    if (!readingMusic.checked) pauseMusic();
+    else if (!readingPaused) startReadingMusic();
   });
   function photoReadingUI() {
     const returnFocus = document.activeElement === photoSpeechPause || document.activeElement === photoSpeechStop;
@@ -280,6 +425,7 @@
     if (photoReading) { stopPhotoReading(); return; }
     if (!canSpeak) return;
     stopReading();
+    pauseMusic();
     const photo = photos[currentPhoto];
     const text = photo.title + '. Descrição visual: ' + photo.alt + '. Leitura do projeto: ' + photo.caption + ' Fotografia de ' + photo.author + ', ' + dateLabel(photo) + '. ' + locationLabel(photo) + '.';
     const request = ++photoRequest;
@@ -313,7 +459,7 @@
     photoSpeechStatus.textContent = photoReadingPaused ? 'Leitura da fotografia pausada.' : 'Leitura da fotografia retomada.';
   });
   photoSpeechStop.addEventListener('click', () => { stopPhotoReading(); photoSpeech.focus(); });
-  dialog.addEventListener('close', () => { stopPhotoReading(); audio.pause(); });
+  dialog.addEventListener('close', () => { stopPhotoReading(); pauseMusic(); });
   if (!canSpeak) {
     photoSpeech.disabled = true;
     document.getElementById('photo-speech-note').textContent = 'A leitura em voz não está disponível neste navegador. A descrição visual e a leitura do projeto estão em texto, disponíveis ao leitor de tela.';
@@ -323,5 +469,5 @@
   photoReadingUI();
   readingUI();
   if (synth && 'onvoiceschanged' in synth) synth.onvoiceschanged = () => synth.getVoices();
-  window.addEventListener('pagehide', () => { stopPhotoReading(); stopReading(); });
+  window.addEventListener('pagehide', () => { stopPhotoReading(); stopReading(); pauseMusic(); });
 })();

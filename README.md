@@ -1,26 +1,32 @@
 # O Recife sujo
 
-Um ensaio fotográfico e poético em 47 fotografias autorais, com linguagem gráfica inspirada na xilogravura, cinco sextilhas e música instrumental de fundo.
+Um ensaio fotográfico e poético em 49 fotografias autorais, com linguagem gráfica inspirada na xilogravura, cinco sextilhas e três músicas de artistas pernambucanos.
 
 ## Editar a base
 
 - A página está em `index.html`.
-- Os dados das 47 fotos e as cinco sextilhas estão em `data.js`.
+- Os dados das 49 fotos e as cinco sextilhas estão em `data.js`.
 - As imagens estão em `assets/autorais/DSC05656.jpg` e nos demais arquivos da pasta `assets/autorais/`.
 - O visual e o tratamento monocromático na exibição estão em `styles.css`.
 - Os controles da galeria, a leitura automática e o áudio estão em `app.js`.
 
-O ensaio reúne 47 fotografias autorais: 27 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 16 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
+O ensaio reúne 49 fotografias autorais: 29 de Samico e 20 de frança. São 31 imagens de 5 de novembro e 18 de 11 de novembro de 2026. As datas foram confirmadas pela autoria e prevalecem sobre o relógio incorreto da câmera do primeiro conjunto. As localizações pesquisadas e seus registros de verificação estão em `data.js` e `assets/credits.json`. Cada imagem conserva sua autoria e sua data nos créditos.
 
-Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 28 fotografias: 27 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também em preto e branco, integra o interlúdio Recife Esquecido. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
+Os primeiros capítulos recebem apresentação monocromática somente na exibição. O Recife Vivo reúne 30 fotografias: 29 coloridas e a fachada do Trianon em preto e branco. O botão Devolver a cor revela o tratamento original, sem colorizar os registros monocromáticos. A DSC05662, também em preto e branco, integra o interlúdio Recife Esquecido. A galeria ampliada usa as versões web no tratamento fornecido; algumas imagens originais podem já ser monocromáticas. As fotografias não são xilogravuras artesanais.
 
 ## Música e leitura
 
-A música em `assets/trilha-demo.wav` é uma composição digital original de demonstração, não uma gravação dos artistas pesquisados. A leitura utiliza a voz de português disponível no navegador, quando suportada. Substitua pelo registro sonoro final do grupo e atualize os créditos para a entrega acadêmica.
+O botão **Percorrer o ensaio** inicia a rolagem e para na entrada do Recife Vivo. **Devolver a cor** revela as fotos e retoma o percurso até o fim. A rolagem pode ser pausada e respeita a preferência de redução de movimento.
+
+Quando a música está ativada, o trecho do Recife Sujo se repete até a entrada do Recife Esquecido. Os outros dois trechos tocam uma vez ao entrar nas respectivas partes. Os MP3 em `assets/audio/` foram recortados a partir dos arquivos fornecidos e nivelados em cerca de −25 LUFS, com entradas e saídas suaves. O controle começa em 55% desse nível. Durante a leitura em voz alta, a música fica ainda mais baixa.
+
+- Recife Sujo · [A Cidade](https://www.youtube.com/watch?v=WVT1XskxUZk) · Chico Science & Nação Zumbi · 1:18,6–1:40,4
+- Recife Esquecido · [As Quatro Estações](https://www.youtube.com/watch?v=uiuHLqdambI) · Reginaldo Rossi · 0:08–0:34
+- Recife Vivo · [Coco Dub (Afrociberdelia)](https://www.youtube.com/watch?v=d4uNOo4OWa4) · Chico Science & Nação Zumbi · 0:24–0:50
 
 ## Abrir e apresentar
 
-Sirva a raiz deste projeto com um servidor HTTP. Não há instalação de pacotes nem etapa de compilação. O site funciona em telas de computador e celular e oferece uma galeria com as 47 fotos, navegação por teclado, controle de volume e pausa da música.
+Sirva a raiz deste projeto com um servidor HTTP. Não há instalação de pacotes nem etapa de compilação. O site funciona em telas de computador e celular e oferece uma galeria com as 49 fotos, navegação por teclado, controle de volume e pausa da música.
 
 ## Licenças
 
@@ -28,13 +34,13 @@ Os créditos e direitos das fotos estão em `assets/credits.json` e no próprio 
 
 ## Recife vivo e identidade visual
 
-O quinto movimento reúne 28 fotografias, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela o tratamento original das fotos do Recife Vivo; permite rever a apresentação em preto e branco. A fachada do Trianon e o registro de acervo mantêm a monocromia. A preferência Cores originais dispensa essa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
+O quinto movimento reúne 30 fotografias, organizadas em sete passagens: trabalho e comércio, histórias em circulação, criação, convivência, pontes, mangue e barcos. O percurso parte das frestas e do desgaste, atravessa permanência, memória e arte, e termina na água em atividade. A ordem constrói uma narrativa visual do Recife sujo ao Recife vivo. O texto e a sextilha aproximam a sobrevivência da cidade do direito de permanecer. O botão Devolver a cor revela o tratamento original das fotos do Recife Vivo; permite rever a apresentação em preto e branco. A fachada do Trianon e o registro de acervo mantêm a monocromia. A preferência Cores originais dispensa essa transição. A linha-matriz que atravessa um rio, forma uma ponte e se ramifica foi desenhada especialmente para esta base em `assets/linha-matriz.svg`. O cartaz do curta também é um desenho original em SVG, em `assets/curta-poster.svg`.
 
 O refinamento visual e os controles de acesso estão em `enhancements.css` e `enhancements.js`. O painel oferece texto maior, contraste reforçado, retirada de texturas, redução de movimento, cores originais e fonte simples. As preferências são salvas somente no navegador. A leitura tem controles de pausa, retomada e parada.
 
 ## Espaço para o curta
 
-O curta está identificado como em produção: não há um vídeo fictício. O roteiro e as propostas de produção própria estão em `assets/roteiro-a3.txt` e no site.
+O curta está em produção. A seção inclui o trailer fornecido, em `assets/trailer-o-que-ainda-pulsa.mp4`. O roteiro e as propostas de produção própria estão em `assets/roteiro-a3.txt` e no site.
 
 Para publicar o filme, preencha os campos `shortFilm` em `data.js`: `src` para o MP4, `captionsSrc` para as legendas WebVTT finais, `transcript` para a transcrição real e `audioDescriptionSrc` para uma versão do vídeo com audiodescrição. Os recursos só aparecem quando seus respectivos campos são preenchidos. Use caminhos de arquivos reais, colocados dentro de `assets/`.
 ## GitHub Pages
@@ -67,13 +73,13 @@ A feira DSC05655, a travessia DSC05746, as raízes DSC05776 e o píer DSC05779 c
 
 O bloco cinemaMemory em data.js é renderizado por app.js na segunda passagem do Recife Vivo, junto aos sebos. Duas fotografias atuais, DSC05748 e DSC05752, aproximam a fachada e os filmes nas bancas. A fotografia histórica de 1961 compõe a comparação ao lado da fachada atual. A identificação do Trianon é provável por comparação visual. As legendas públicas apresentam o entorno em vez de um endereço não comprovado.
 
-A comparação distingue o Cine Trianon do vizinho Art-Palácio. As datas e as transformações do Art-Palácio vêm da pesquisa de Silva e Pinho (Docomomo, 2024); o sebo histórico na calçada do Trianon é documentado por Kleber Mendonça Filho (Continente, 2013). O projeto do IFPE é apresentado como anúncio de 2024, sem declaração de reabertura concluída. A memória audiovisual recebe um link ao filme do próprio realizador. A comparação visual acrescenta a fotografia de 28/8/1961, de Mário de Carvalho, acervo do Museu da Cidade do Recife, extraída do catálogo oficial Arte Subdesenvolvida (CCBB), pp. 78–79, PDF página 40. A imagem fica ao lado da DSC05748, com data, autoria e fonte. A reprodução de acervo permanece separada das 47 fotografias autorais. O catálogo consultado não explicita licença aberta para essa fotografia; o crédito documenta a procedência, sem declarar uma licença presumida.
+A comparação distingue o Cine Trianon do vizinho Art-Palácio. As datas e as transformações do Art-Palácio vêm da pesquisa de Silva e Pinho (Docomomo, 2024); o sebo histórico na calçada do Trianon é documentado por Kleber Mendonça Filho (Continente, 2013). O projeto do IFPE é apresentado como anúncio de 2024, sem declaração de reabertura concluída. A memória audiovisual recebe um link ao filme do próprio realizador. A comparação visual acrescenta a fotografia de 28/8/1961, de Mário de Carvalho, acervo do Museu da Cidade do Recife, extraída do catálogo oficial Arte Subdesenvolvida (CCBB), pp. 78–79, PDF página 40. A imagem fica ao lado da DSC05748, com data, autoria e fonte. A reprodução de acervo permanece separada das 49 fotografias autorais. O catálogo consultado não explicita licença aberta para essa fotografia; o crédito documenta a procedência, sem declarar uma licença presumida.
 
 A fotografia de arquivo está em `assets/acervo/trianon-1961-mario-de-carvalho.jpg`, em sua resolução publicada de 547 × 370 px, sem recorte ou tratamento adicional. Seus dados estão em `cinemaMemory.comparison.historical` e em `externalImages` de `assets/credits.json`. A imagem de Samico mantém sua ampliação pela galeria; o registro de 1961 abre o JPEG em nova aba.
 
 ## Seleção e percurso visual
 
-A seleção reúne 47 fotografias entre 102 arquivos do projeto. Os cinco movimentos têm 8, 4, 2, 2 e 28 imagens. Entre o quarto e o quinto, o interlúdio Recife Esquecido reúne três fotografias. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
+A seleção reúne 49 fotografias do acervo do projeto. Os cinco movimentos têm 8, 4, 2, 2 e 30 imagens. Entre o quarto e o quinto, o interlúdio Recife Esquecido reúne três fotografias. A luz pela fresta, DSC05656, abre o ensaio; a canoa lateral, DSC05942, encerra o Recife Vivo.
 
 As fotografias semelhantes foram comparadas pelo enquadramento, pelo gesto e pela função na narrativa. A galeria preserva DSC05914 para a passagem sob a marquise, DSC05867 para a frente do rio, DSC05879 para a banca de frutas e DSC05923 para a convivência entre edifícios. DSC05915, DSC05872, DSC05880, DSC05883, DSC05926 e DSC05754 ficam em reserva.
 
@@ -97,7 +103,7 @@ Os textos de apresentação, os cinco movimentos e as 47 legendas foram desenvol
 
 Cada fotografia tem uma descrição visual em texto, separada da interpretação poética. Na ampliação, a leitura automática opcional reúne descrição, interpretação e crédito, com pausa e parada dentro da janela; interrompe ao trocar ou fechar e pausa a música. O poema continua integralmente em texto, e é possível retirar a trilha da leitura por voz. A voz depende do suporte do navegador e não substitui um leitor de tela.
 
-leitura.html oferece uma página estática, linear e sem imagens, com os 47 registros descritos, poema, memória do cinema e seção de gentrificação. Funciona sem JavaScript. assets/percurso-em-texto.txt oferece o mesmo percurso em texto simples para download. O site explica a função da trilha instrumental, sem informação exclusiva no áudio.
+leitura.html oferece uma página estática, linear e sem imagens, com os 49 registros descritos, poema, memória do cinema e seção de gentrificação. A leitura e os controles nativos de áudio funcionam sem JavaScript. Cada Recife tem uma faixa opcional, 13 dB abaixo do arquivo usado na galeria, sem reprodução automática. Com JavaScript, iniciar outra faixa pausa a anterior. assets/percurso-em-texto.txt oferece o mesmo percurso em texto simples para download. O site explica a função da trilha instrumental, sem informação exclusiva no áudio.
 
 A galeria anuncia número e título ao trocar de foto, direciona o foco ao título ao abrir e devolve o foco ao botão de origem ao fechar. O botão de cor usa estado pressionado, explicação e mensagem textual. Estes recursos passaram por verificações de estrutura e comportamento programático; não constituem uma certificação nem substituem teste com pessoas usuárias de leitores de tela.
 
